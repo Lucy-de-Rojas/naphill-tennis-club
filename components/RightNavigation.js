@@ -1,6 +1,6 @@
 ﻿
 import Link from "next/link";
-import styles from '../styles/mainNavigation.module.css';
+import styles from '../styles/rightnavigation.module.css';
 
 
 
@@ -13,6 +13,8 @@ export default function RightNavigation () {
 
 
     return (<div className={styles.navigation}>
+
+        {/* <h2>Aspects of tennis:</h2> */}
         {
             items.map((item, index)=> {
                 return <Link href={links[index]}><button key={index} className={styles.button}>{item}</button>

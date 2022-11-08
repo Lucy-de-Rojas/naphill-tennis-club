@@ -13,7 +13,7 @@ export default function Layout ({children}) {
 
 
 
-    return (<div>
+    return (<div className={styles.layoutWrapper}>
         <Logo/>
 
 
@@ -22,10 +22,12 @@ export default function Layout ({children}) {
         <MainNavigation />
 
 
+<div className={styles.children}>
 
 {children}
+</div>
 
-<RightNavigation />
+{/* <RightNavigation /> */}
         </div>
 {/* end of 3 column flex box */}
 
