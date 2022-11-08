@@ -1,0 +1,35 @@
+﻿
+
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.499);
+    padding: 20px;
+    border-radius: 0px 20px 20px 0px;
+
+
+
+}
+
+
+
+
+
+
+.button {
+    padding: 20px 10px;
+    border: 0;
+    margin: 15px 0px;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+
+
+
+

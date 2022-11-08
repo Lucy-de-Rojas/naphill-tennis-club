@@ -22,7 +22,7 @@ export default function Logo () {
 
         <Image
 
-            src= '/Media/images/logo.svg'
+            src= '/Media/images/logo.png'
             width='1559'
             height='850'
             alt="logo"
