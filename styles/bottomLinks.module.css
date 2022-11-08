@@ -2,12 +2,13 @@
 
 
 .bottomLinks {
-    background-color: rgb(255, 243, 17);
-    bottom: 0;
-    position: absolute;
+    background-color: rgba(226, 219, 78, 0.816);
+    /* position: absolute;
+    bottom: 0; */
 
     width: 100%;
     padding: 20px;
+
 }
 
 
