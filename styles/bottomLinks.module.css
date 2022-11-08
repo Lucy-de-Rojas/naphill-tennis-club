@@ -4,10 +4,10 @@
 .bottomLinks {
     background-color: rgb(255, 243, 17);
     bottom: 0;
-
     position: absolute;
 
     width: 100%;
+    padding: 20px;
 }
 
 

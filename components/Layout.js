@@ -15,7 +15,6 @@ export default function Layout ({children}) {
         <Logo/>
         <MainNavigation />
 
-<h1>Layout</h1>
 
 
 {children}

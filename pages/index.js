@@ -9,13 +9,12 @@ import Layout from '../components/Layout'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
 <Layout>
 
-inside layout
+<h1>Home page</h1>
 
 </Layout>
-
     </div>
   )
 }
