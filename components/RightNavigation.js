@@ -17,7 +17,7 @@ export default function RightNavigation () {
         {/* <h2>Aspects of tennis:</h2> */}
         {
             items.map((item, index)=> {
-                return <Link href={links[index]}><button key={index} className={styles.button}>{item}</button>
+                return <Link href={links[index]} key={index}><button key={index} className={styles.button}>{item}</button>
                 </Link>
             })
         }
