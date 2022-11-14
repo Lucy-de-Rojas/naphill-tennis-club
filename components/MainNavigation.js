@@ -15,7 +15,6 @@ export default function MainNavigation () {
     return (<div className={styles.navigation}>
 
 
-        <h2>Club:</h2>
         {
             items.map((item, index)=> {
                 return <Link href={links[index]} key={index}><button key={index} className={styles.button}>{item}</button>

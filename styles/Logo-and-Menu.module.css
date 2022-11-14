@@ -1,0 +1,35 @@
+﻿.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.check {
+  display: none;
+}
+
+
+
+.label {
+  background: wheat;
+  cursor: pointer;
+  padding: 20px;
+}
+
+
+.content {
+  background: rgba(7, 219, 21, 0.5);
+  position: relative;
+  width: 100%;
+
+  transition: all 1s ease-in-out;
+  transform: translateX(-200%);
+}
+
+
+
+.check:checked ~ .content {
+  transform: translateX(0%);
+
+}
