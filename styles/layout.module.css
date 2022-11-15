@@ -13,5 +13,6 @@
 
 .children {
     background-color: rgba(207, 71, 71, 0.623);
-    width: 60%;
+    width: 100%;
+    padding: 20px;
 }
