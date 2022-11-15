@@ -1,18 +1,18 @@
 ﻿.layoutWrapper {
     width: 100%;
-    background-color: rgba(10, 108, 245, 0.983);
+    background-color: rgba(181, 222, 192, 0.983);
 }
 
 
 .content {
     display: flex;
-    background-color: rgba(128, 0, 128, 0.612);
+    /* background-color: rgba(128, 0, 128, 0.612); */
 }
 
 
 
 .children {
-    background-color: rgba(207, 71, 71, 0.623);
+    background-color: rgba(255, 255, 255, 0.623);
     width: 100%;
     padding: 20px;
 }

@@ -51,6 +51,9 @@ console.log('hello home page');
 <h1>{data.title}</h1>
 <h2>{data.subhead}</h2>
 <p>{data.mainInfo}</p>
+<video width="100%" controls>
+  <source src='/Media/videos/What-is-Tennis-by-Lucy-de-Rojas.mp4' type='video/mp4' ></source>
+</video>
 
 
 
