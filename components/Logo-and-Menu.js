@@ -18,7 +18,12 @@ export default function LogoAndMenu () {
 <input type="checkbox" id="check" className={styles.check} />
 
 
-<label for="check" className={styles.label}></label>
+
+
+<label for="check" className={styles.label}>
+
+
+</label>
 
 
 
