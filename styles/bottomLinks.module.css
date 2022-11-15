@@ -2,15 +2,24 @@
 
 
 .bottomLinks {
-    /* background-color: rgba(226, 219, 78, 0.485); */
-    /* position: absolute;
-    bottom: 0; */
 
     width: 100%;
     padding: 20px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
 
 }
 
+
+
+.iconWrap {
+    /* background-color: red; */
+    margin: 10px;
+    color: var(--green);
+
+}
 
 
 

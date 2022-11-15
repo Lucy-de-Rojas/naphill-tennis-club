@@ -22,7 +22,7 @@
 
 .label::before {
   content: 'III';
-  background-color: white;
+  background-color: var(--grey);
   padding:20px ;
   border-radius: 0px 10px 20px 30px;
 
@@ -31,7 +31,7 @@
 
 
 .content {
-  background: rgba(7, 219, 21, 0.5);
+  background: var(--green);
   position: relative;
   width: 100%;
 
