@@ -12,9 +12,21 @@
 
 
 .label {
-  background: wheat;
+  background: rgb(69, 69, 67);
   cursor: pointer;
   padding: 20px;
+  font-weight: 900;
+  writing-mode: vertical-lr;
+}
+
+
+.label::before {
+  content: 'III';
+  background-color: white;
+  padding:20px ;
+  border-radius: 0px 10px 20px 30px;
+
+
 }
 
 
