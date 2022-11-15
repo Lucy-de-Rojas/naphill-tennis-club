@@ -7,12 +7,24 @@ import styles from '../styles/bottomLinks.module.css';
 
 
 
+// font awesome:
+import {library} from '@fortawesome/fontawesome-svg-core';
+import {faCheckSquare, faCoffee, faLocationArrow, faLocationPinLock} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
+
 export default function BottomLinks () {
 
 
 
 
     return (<div className={styles.bottomLinks}>
+
+<div className={styles.iconWrap}>
+
+<FontAwesomeIcon icon={faLocationArrow} />
+</div>
 
 
 
