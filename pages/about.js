@@ -3,6 +3,8 @@ import { useState, useEffect} from 'react';
 import {getData} from '../libs/getData';
 
 
+import styles from '../styles/about.module.css';
+
 import Layout from "../components/Layout"
 
 export default function About () {
@@ -34,26 +36,26 @@ export default function About () {
 
 
         <h2>Club House Keys</h2>
-        <p>{dataWeb.clubHouseKeys}</p>
+        <p className={styles.para}>{dataWeb.clubHouseKeys}</p>
 
         <h2>Attire</h2>
-        <p>{dataWeb.attire}</p>
+        <p className={styles.para}>{dataWeb.attire}</p>
 
 
 
         <h2>Court Availability</h2>
-        <p>{dataWeb.courtAvailability}</p>
+        <p className={styles.para}>{dataWeb.courtAvailability}</p>
 
 
 
 
         <h2>Visitors</h2>
-        <p>{dataWeb.visitors}</p>
+        <p className={styles.para}>{dataWeb.visitors}</p>
 
 
 
         <h2>Security</h2>
-        <p>{dataWeb.security}</p>
+        <p className={styles.para}>{dataWeb.security}</p>
 
 
 
