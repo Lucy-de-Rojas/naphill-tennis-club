@@ -46,6 +46,19 @@ export default function BottomLinks () {
 </div></a></Link>
 
 
+
+
+{/* phone link: */}
+<Link href='tel:01494565406' legacyBehavior><a><div className={styles.iconWrap}>
+<i class="fa-solid fa-square-phone fa-3x"></i>
+</div></a></Link>
+
+
+
+
+
+
+
 {/* directions link: */}
 <Link href='https://www.google.com/maps/dir//51.663728,-0.775078/@51.6636273,-0.8451027,12z' legacyBehavior>
     <a target={linkTarget}>
