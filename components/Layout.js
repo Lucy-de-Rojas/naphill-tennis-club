@@ -22,7 +22,7 @@ export default function Layout ({children}) {
 
 
 <Head>
-<script async src="https://kit.fontawesome.com/9f56af7d44.js" crossorigin="anonymous"></script>
+<script defer async src="https://kit.fontawesome.com/9f56af7d44.js" crossorigin="anonymous"></script>
 
 
 
