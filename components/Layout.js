@@ -7,6 +7,8 @@ import RightNavigation from "./RightNavigation"
 import LogoAndMenu from "./Logo-and-Menu"
 
 import styles from '../styles/layout.module.css';
+import {useState, useEffect} from 'react';
+
 
 import Script from "next/script";
 
@@ -22,6 +24,7 @@ export default function Layout ({children}) {
 
 
 <Head>
+    {/* these are for font awesome icons to use: */}
 <script defer async src="https://kit.fontawesome.com/9f56af7d44.js" crossorigin="anonymous"></script>
 
 

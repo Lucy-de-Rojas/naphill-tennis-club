@@ -13,16 +13,13 @@ export default function Logo () {
 <div className={styles.logo}>
 
 <Link href='/'>
-
         <Image
 
-src= '/Media/images/logo.png'
+src= '/Media/LogosAndIcons/NaphillTennisClub-Logo.png'
 width='1559'
 height='850'
 alt="naphill tennis club logo"
 layout="responsive"
-
-
 />
 
 </Link>

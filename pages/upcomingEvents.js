@@ -1,8 +1,9 @@
 ﻿import {useEffect, useState} from 'react';
+import Layout from "../components/Layout";
+import Link from 'next/link';
 
+import styles from '../styles/bottomLinks.module.css';
 
-
-import Layout from "../components/Layout"
 
 
 export default function UpcomingEvents () {
@@ -38,7 +39,20 @@ export default function UpcomingEvents () {
 <h1>{dataWeb.title}</h1>
 
 
+<p>{dataWeb.message}</p>
 
-</Layout>
-    </div>)
+
+{/* facebook link: */}
+<Link href="https://www.facebook.com/groups/naphilltennisclub" legacyBehavior>
+            <a target='_blank'>
+<div className={styles.iconWrap}>
+        <i class="fa-brands fa-facebook fa-3x"></i>
+</div>
+</a></Link>
+
+
+
+
+
+</Layout></div>)
 }

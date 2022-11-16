@@ -51,7 +51,7 @@ console.log('hello home page');
 <h2>{data.subhead}</h2>
 <p>{data.mainInfo}</p>
 
-<h2>What is Tennis?</h2>
+<h2>What is Tennis? <br />Invite to the Great British Tennis Weekend (May 2015) </h2>
 <video width="100%" controls>
   <source src='/Media/videos/What-is-Tennis-by-Lucy-de-Rojas.mp4' type='video/mp4' ></source>
 </video>
