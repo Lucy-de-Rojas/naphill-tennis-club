@@ -8,6 +8,9 @@ import LogoAndMenu from "./Logo-and-Menu"
 
 import styles from '../styles/layout.module.css';
 
+import Script from "next/script";
+
+
 
 export default function Layout ({children}) {
 
@@ -19,7 +22,7 @@ export default function Layout ({children}) {
 
 
 <Head>
-<script src="https://kit.fontawesome.com/9f56af7d44.js" crossorigin="anonymous"></script>
+<script async src="https://kit.fontawesome.com/9f56af7d44.js" crossorigin="anonymous"></script>
 
 
 
