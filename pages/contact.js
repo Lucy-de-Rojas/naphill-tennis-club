@@ -4,6 +4,8 @@ import styles from '../styles/contact.module.css';
 import Layout from "../components/Layout"
 
 
+// 🚩
+// we could get the /api/contact-details from here and send it in body
 
 
 
@@ -14,7 +16,7 @@ export default function Contact () {
 
 
 
-     function handleSubmit (event) {
+     async function handleSubmit (event) {
         // event.preventDefault();
 
 
@@ -32,7 +34,23 @@ export default function Contact () {
 
         }
 
-        console.log(data);
+        console.log('data: >>>',data);
+
+
+        let response = await fetch('api/contact',{
+            method:'POST',
+            mode: 'cors',
+            cache: 'no-cache',
+            credentials: 'same-origin',
+            headers: {
+                "Content-Type":"application/x-www-form-urlencoded"
+            },
+            body: JSON.stringify(data),
+
+        });
+
+
+        return response.json();
 
 
 

@@ -7,7 +7,7 @@ export default function meetManTeam () {
 
     return (<div>
 <Layout>
-<h1>Meet the Men's Team</h1>
+<h1>Meet the Mens Team</h1>
 
 <Image
     src='/Media/images/mansTeam.jpg'
