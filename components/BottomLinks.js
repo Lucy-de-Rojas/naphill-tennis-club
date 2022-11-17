@@ -60,7 +60,7 @@ export default function BottomLinks () {
 
 
 {/* directions link: */}
-<Link href='https://www.google.com/maps/dir//51.663728,-0.775078/@51.6636273,-0.8451027,12z' legacyBehavior>
+<Link href='https://www.google.com/maps/dir/51.663728,-0.775078/@51.6636273,-0.8451027,12z' legacyBehavior>
     <a target={linkTarget}>
 <div className={styles.iconWrap}>
 

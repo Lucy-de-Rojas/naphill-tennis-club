@@ -1,8 +1,10 @@
-﻿import {useState, useEffect} from 'react';
+﻿import {useState, useEffect, use} from 'react';
 
 import styles from '../styles/contact.module.css';
 import Layout from "../components/Layout"
 
+
+import { useForm} from 'react-hook-form';
 
 // 🚩
 // we could get the /api/contact-details from here and send it in body
@@ -15,26 +17,19 @@ import Layout from "../components/Layout"
 export default function Contact () {
 
 
-
-     async function handleSubmit (event) {
-        // event.preventDefault();
+    const { register, handleSubmit } = useForm();
 
 
+    // const onSubmit = data => console.log(data);
 
-        let name = document.querySelector('#name').value;
-        let phone = document.querySelector('#phone').value;
-        let email = document.querySelector('#email').value;
-        let message = document.querySelector('#message').value;
 
-        let data = {
-            name: name,
-            phone: phone,
-            email:email,
-            message:message,
+    async function onSubmit(data) {
 
-        }
+        console.log('data from submit:>>> ',data);
 
-        console.log('data: >>>',data);
+
+
+
 
 
         let response = await fetch('api/contact',{
@@ -49,18 +44,69 @@ export default function Contact () {
 
         });
 
-
-        return response.json();
-
-
-
-
-
-
-
-
-
     }
+
+
+
+
+/*
+        async function handleSubmit (event) {
+
+            console.log('handle submit func');
+
+
+
+
+
+
+
+            console.log('running on submit');
+
+            let name = document.querySelector('#name').value;
+            let phone = document.querySelector('#phone').value;
+            let email = document.querySelector('#email').value;
+            let message = document.querySelector('#message').value;
+
+            let data = {
+                name: name,
+                phone: phone,
+                email:email,
+                message:message,
+
+            }
+
+            // console.log('data: >>>',data);
+
+
+            let response = await fetch('api/contact',{
+                method:'POST',
+                mode: 'cors',
+                cache: 'no-cache',
+                credentials: 'same-origin',
+                headers: {
+                    "Content-Type":"application/x-www-form-urlencoded"
+                },
+                body: JSON.stringify(data),
+
+            });
+
+
+
+        }
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -70,39 +116,45 @@ export default function Contact () {
 
     return (<Layout>
 
-<h1>Contact</h1>
 
+        <h1>Form </h1>
 
 <div className={styles.wrapper}>
 
-{/* <form  method='POST' className={styles.form}> */}
 
-
-<input type='text' required name="name" id="name" placeholder='name'/>
-<input type='email' required  name="email"  id="email" placeholder='email'/>
-<input type="tel" name="phone" id="phone" placeholder='phone'/>
-<input type="text" maxlength="1000" name="message" id="message" placeholder='message' />
+        <form onSubmit={handleSubmit(onSubmit)} className={styles.form} >
 
 
 
 
-<button className={styles.iconWrap} onClick={handleSubmit}>
-<i class="fa-solid fa-paper-plane fa-3x"></i>
-</button>
+      <input    {...register("name")}
+                placeholder='name'
+                required
+                />
+
+      <input
+                {...register('email')}
+                placeholder='email'
+      />
+
+
+<textarea
+                {...register('message')}
+                placeholder='message'
+                rows="5"
+      />
 
 
 
 
-{/* <input type="submit" onSubmit={handleSubmit} /> */}
-{/* </form> */}
-
-</div>
 
 
 
+      <input type="submit" />
+    </form>
 
 
-
+    </div>
 
     </Layout>)
 }
