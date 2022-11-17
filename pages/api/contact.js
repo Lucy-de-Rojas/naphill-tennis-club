@@ -1,7 +1,6 @@
 ﻿
 import fs from 'fs';
 
-import nodemailer from 'nodemailer';
 
 
 
@@ -17,10 +16,6 @@ export default async function handler(req, res) {
     let dataToSave = JSON.stringify(data);
     console.log('data from api:>>> ',data);
 
-    fs.appendFile('./pages/api/test.json', dataToSave,()=> {});
-
-
-    let dataSaved = fs.readFile();
 
 
 
@@ -44,9 +39,7 @@ export default async function handler(req, res) {
 
 
 
-
-
-    res.status(200).json(data);
+    res.status(200).json({contact:"no data yet"});
   }
 
 
