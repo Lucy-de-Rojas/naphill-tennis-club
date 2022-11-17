@@ -117,7 +117,7 @@ export default function Contact () {
     return (<Layout>
 
 
-        <h1>Form </h1>
+        <h1>Form saving locally</h1>
 
 <div className={styles.wrapper}>
 
