@@ -18,8 +18,12 @@ export default function Contact () {
     console.clear();
     console.log('loading contact page');
 
-    console.log('env variable USERNAME:', process.env.USERNAME);
-    console.log('env variable VERCEL_ENV:', process.env.VERCEL_ENV);
+
+
+    console.log('local env: >>>', process.env.name);
+    console.log('local env: >>>', process.env.USER_NAME);
+    console.log('local env: >>>', process.env.PASSWORD);
+
     
     
     
@@ -28,9 +32,6 @@ export default function Contact () {
     async function handleSubmit () {
         console.clear();
         
-            console.log('handle submit func');
-            console.log('env var USERNAME on submit: >>', process.env.USERNAME);
-
 
 
 
@@ -92,7 +93,13 @@ export default function Contact () {
     return (<Layout>
 
 
-        <h1>Form saving locally</h1>
+        <h1>Form saving locally {process.env.name}</h1>
+        <h1>Form saving locally {process.env.PORT}</h1>
+        <h1>Form saving locally {process.env.USERNAME}</h1>
+        <h1>Form saving locally {process.env.PASSWORD}</h1>
+        <h1>Form saving locally {process.env.DATABASE}</h1>
+        <h1>Form saving locally {process.env.TABLE_NAME}</h1>
+
 
 <div className={styles.wrapper}>
 
