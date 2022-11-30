@@ -4,29 +4,53 @@ import mysql from 'mysql2/promise';
 
 
 
+
+
+
+
 export default async function handler(req, res) {
 
 
 
+  const mySql = {
+      host: '109.156.76.246',
+      database:'naphill',
+      port: 3306,
+      user: 'lucyderojas',
+      password: 'Filipo13',
+
+  }
 
 
-
-
-
-
-
-
-
-
-  const connection = await mysql.createConnection(
-    {
+  const mySqlENV = {
       host: '109.156.76.246',
       database: process.env.DATABASE,
       port: parseInt(process.env.PORT),
       user: process.env.USER_NAME,
       password: process.env.PASSWORD,
-    }
-  );
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  const connection = await mysql.createConnection({
+    host: '109.156.76.246',
+    database:'naphill',
+    port: 3306,
+    user: 'lucyderojas',
+    password: 'Filipo13',
+
+});
 
 
 
