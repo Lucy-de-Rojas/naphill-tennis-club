@@ -1,4 +1,6 @@
 ﻿import {useState, useEffect, use} from 'react';
+import Link from 'next/link';
+import Router from 'next/router';
 
 
 import styles from '../styles/contact.module.css';
@@ -28,13 +30,32 @@ export default function Contact () {
     
     async function handleSubmit () {
         console.clear();
+        let name = document.querySelector('#name').value;
+        const testString = 'lucy de rojas';
+
+
+        // sharing data:
+
+        Router.push({
+            pathname:'/contact-thank-you',
+            query: {
+                name: name,
+                testString: testString,
+            },
+        });
+
+
+
+
+        // 
         
 
 
 
 
 
-            let name = document.querySelector('#name').value;
+
+
             // let phone = document.querySelector('#phone').value;
             // let email = document.querySelector('#email').value;
             // let message = document.querySelector('#message').value;
@@ -95,13 +116,16 @@ export default function Contact () {
 
 <div className={styles.wrapper}>
 
+
+
+
+
+
+
     <input type='text' id="name"/>
-
+    
     <input type="button" onClick={handleSubmit} value='Submit'/>
-
-
-
-
+ 
 
     </div>
 

@@ -1,69 +1,30 @@
 ﻿
-import Layout from "../components/Layout"
-import { useState, useEffect } from 'react';
-
-
-
-export default function ContactThankYou () {
-
-
-    const [data, setData] = useState({});
-
-
-
-    useEffect(()=> {
-
-
-        async function getData() {
-            let response = await fetch('api/contact');
-            let dataWeb = await response.json();
-            console.log('data fetched:>>> ', dataWeb);
-            setData(dataWeb);
-        }
-
-        getData();
-    },[]);
+import Layout from "../components/Layout";
+import { useRouter } from "next/router";
 
 
 
 
+export default function ContactThankYou() {
+    console.clear();
 
+    const router = useRouter();
+    const {query: {name, testString}} = router;
+    // const props = {name}
+
+
+ 
 
 
 
 
     return (<Layout>
+<h1>thank you</h1>
 
-<h1>Thank you for writing to us</h1>
-
-
-<p>{data.name}</p>
-<p>{data.email}</p>
-<p>{data.message}</p>
+<p>name: {name}</p>
+<p>test string: {testString}</p>
 
 
 
-    </Layout>)
+    </Layout>);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
