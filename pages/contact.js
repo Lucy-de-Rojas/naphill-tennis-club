@@ -19,12 +19,14 @@ export default function Contact () {
     console.log('loading contact page');
 
     console.log('env variable USERNAME:', process.env.USERNAME);
+    console.log('env variable VERCEL_ENV:', process.env.VERCEL_ENV);
 
 
 
 
 
         async function handleSubmit () {
+            console.clear();
 
 
             console.log('handle submit func');
