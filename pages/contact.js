@@ -1,5 +1,6 @@
 ﻿import {useState, useEffect, use} from 'react';
 
+
 import styles from '../styles/contact.module.css';
 import Layout from "../components/Layout"
 
@@ -15,17 +16,11 @@ import Layout from "../components/Layout"
 
 export default function Contact () {
     console.clear();
+    console.log('loading contact page');
+
+    console.log('env variables from config file:', process.env.username);
 
 
-    console.log('FRONT: username from env vars: ',process.env.username);
-    console.log('FRONT: password from env vars: ',process.env.password);
-    console.log('FRONT: port from env vars: ',process.env.port);
-    console.log('FRONT: databse from env vars: ',process.env.databse);
-    console.log('FRONT: tableName from env vars: ',process.env.tableName);
-  
-    console.log('FRONT: all env vars: ',process.env);
-  
-  
 
 
 
@@ -33,14 +28,13 @@ export default function Contact () {
 
 
             console.log('handle submit func');
+            console.log('env var on submit: >>', process.env.username);
 
 
 
 
 
 
-
-            console.log('running on submit');
 
             let name = document.querySelector('#name').value;
             // let phone = document.querySelector('#phone').value;
