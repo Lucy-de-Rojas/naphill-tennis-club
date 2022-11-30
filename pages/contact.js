@@ -19,16 +19,9 @@ export default function Contact () {
     console.log('loading contact page');
 
 
-    let port = parseInt(process.env.PORT);
-
-
-
-    console.log('local env: >>>', process.env.name);
-    console.log('local env: >>>', process.env.USER_NAME);
-    console.log('local env: >>>', process.env.PASSWORD);
-    console.log('port: ', port, typeof port);
 
     
+ 
     
     
     
