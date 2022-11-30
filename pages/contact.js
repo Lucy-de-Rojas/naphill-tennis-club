@@ -18,7 +18,7 @@ export default function Contact () {
     console.clear();
     console.log('loading contact page');
 
-    console.log('env variables from config file:', process.env.username);
+    console.log('env variable USERNAME:', process.env.USERNAME);
 
 
 
@@ -28,7 +28,7 @@ export default function Contact () {
 
 
             console.log('handle submit func');
-            console.log('env var on submit: >>', process.env.username);
+            console.log('env var USERNAME on submit: >>', process.env.USERNAME);
 
 
 

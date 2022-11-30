@@ -7,15 +7,6 @@ import mysql from 'mysql2/promise';
 export default async function handler(req, res) {
 
 
-  console.log('API: username from env vars: ',process.env.username);
-  console.log('API: password from env vars: ',process.env.password);
-  console.log('API: port from env vars: ',process.env.port);
-  console.log('API: databse from env vars: ',process.env.database);
-  console.log('API: tableName from env vars: ',process.env.tableName);
-
-  console.log('API: all env vars: ',process.env);
-
-
 
 
 
