@@ -16,13 +16,6 @@ import Layout from "../components/Layout"
 export default function Contact () {
     console.clear();
 
-    console.log('username from env vars: ',process.env.username);
-    console.log('password from env vars: ',process.env.password);
-    console.log('port from env vars: ',process.env.port);
-    console.log('databse from env vars: ',process.env.databse);
-    console.log('tableName from env vars: ',process.env.tableName);
-
-    console.log('all env vars: ',process.env);
 
 
         async function handleSubmit () {
