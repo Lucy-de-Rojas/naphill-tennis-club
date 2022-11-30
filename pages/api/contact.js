@@ -21,10 +21,10 @@ export default async function handler(req, res) {
   const connection = await mysql.createConnection(
     {
       host: '109.156.76.246',
-      database: 'naphill',
-      port: 3306,
-      user: 'lucyderojas',
-      password: 'Filipo13',
+      database: process.env.DATABASE,
+      port: process.env.PORT,
+      user: process.env.USER_NAME,
+      password: process.env.PASSWORD,
     }
   );
 
