@@ -31,18 +31,16 @@ export default function Contact () {
     async function handleSubmit () {
         console.clear();
         let name = document.querySelector('#name').value;
-        const testString = 'lucy de rojas';
+        let email = document.querySelector('#email').value;
+        let message = document.querySelector('#message').value;
+
+        let data = {
+            name: name,
+            email:email,
+            message:message,
+        }
 
 
-        // sharing data:
-
-        Router.push({
-            pathname:'/contact-thank-you',
-            query: {
-                name: name,
-                testString: testString,
-            },
-        });
 
 
 
@@ -56,21 +54,8 @@ export default function Contact () {
 
 
 
-            // let phone = document.querySelector('#phone').value;
-            // let email = document.querySelector('#email').value;
-            // let message = document.querySelector('#message').value;
-
-            let data = {
-                name: name,
-                // phone: phone,
-                // email:email,
-                // message:message,
-
-            }
 
             // console.log('data: >>>',data);
-
-
             let response = await fetch('api/contact',{
                 method:'POST',
                 mode: 'cors',
@@ -83,6 +68,9 @@ export default function Contact () {
                 body: JSON.stringify(data),
 
             });
+
+
+
 
 
 
@@ -111,23 +99,29 @@ export default function Contact () {
     return (<Layout>
 
 
-        <h1>Form saving locally</h1>
+        <h1>Contact Naphill Tennis Club</h1>
 
 
+
+
+
+
+
+
+{/* <form onSubmit={handleSubmit} action="contact-thank-you"> */}
 <div className={styles.wrapper}>
 
+    <input type='text' id="name" placeholder='name'/>
+    <input type='email' id="email" placeholder='email'/>
+    <textarea rows="5" id="message" placeholder='message'/>
 
-
-
-
-
-
-    <input type='text' id="name"/>
-    
-    <input type="button" onClick={handleSubmit} value='Submit'/>
- 
+    <input type="button" value="Submit" onClick={handleSubmit} />
+    {/* <input type="submit" value='Send Us A Message' /> */}
 
     </div>
+{/* </form> */}
+ 
+
 
     </Layout>)
 }

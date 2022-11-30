@@ -9,7 +9,7 @@ export default function ContactThankYou() {
     console.clear();
 
     const router = useRouter();
-    const {query: {name, testString}} = router;
+    const {query: {name, email, message}} = router;
     // const props = {name}
 
 
@@ -22,7 +22,8 @@ export default function ContactThankYou() {
 <h1>thank you</h1>
 
 <p>name: {name}</p>
-<p>test string: {testString}</p>
+<p>email: {email}</p>
+<p>message: {message}</p>
 
 
 
