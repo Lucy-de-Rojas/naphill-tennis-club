@@ -17,6 +17,17 @@ export default function Contact () {
     console.clear();
 
 
+    console.log('FRONT: username from env vars: ',process.env.username);
+    console.log('FRONT: password from env vars: ',process.env.password);
+    console.log('FRONT: port from env vars: ',process.env.port);
+    console.log('FRONT: databse from env vars: ',process.env.databse);
+    console.log('FRONT: tableName from env vars: ',process.env.tableName);
+  
+    console.log('FRONT: all env vars: ',process.env);
+  
+  
+
+
 
         async function handleSubmit () {
 
