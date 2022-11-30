@@ -2,7 +2,7 @@
 const nextConfig = {
    reactStrictMode: false,
    env: {
-    username: "@USERNAME",
+    username: USERNAME,
    },
   webpack5: true,
   webpack: (config)=> {
