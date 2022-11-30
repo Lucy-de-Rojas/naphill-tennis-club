@@ -7,6 +7,9 @@ import mysql from 'mysql2/promise';
 export default async function handler(req, res) {
 
 
+  console.log('env variable USERNAME in api/contact:', process.env.USERNAME);
+
+
 
 
 
