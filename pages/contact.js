@@ -20,14 +20,16 @@ export default function Contact () {
 
     console.log('env variable USERNAME:', process.env.USERNAME);
     console.log('env variable VERCEL_ENV:', process.env.VERCEL_ENV);
-
-
-
-
-
-        async function handleSubmit () {
-            console.clear();
-
+    console.log('env variable from config:', process.env.username);
+    
+    
+    
+    
+    
+    async function handleSubmit () {
+        console.clear();
+        
+        console.log('env variable from config on submit:', process.env.username);
 
             console.log('handle submit func');
             console.log('env var USERNAME on submit: >>', process.env.USERNAME);
