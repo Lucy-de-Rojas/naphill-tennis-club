@@ -19,7 +19,7 @@ export default function ContactThankYou() {
 
 
     return (<Layout>
-<h1>thank you</h1>
+<h1>Thank you for your message</h1>
 
 <p>name: {name}</p>
 <p>email: {email}</p>

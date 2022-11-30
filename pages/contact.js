@@ -62,7 +62,7 @@ export default function Contact () {
                 cache: 'no-cache',
                 credentials: 'same-origin',
                 headers: {
-                    "Content-Type":"application/json"
+                    "Content-Type":"application/json",
                 },
                 
                 body: JSON.stringify(data),
@@ -70,6 +70,17 @@ export default function Contact () {
             });
 
 
+
+            
+        // sharing data:
+        Router.push({
+            pathname:'/contact-thank-you',
+            query: {
+                name: name,
+                email: email,
+                message: message,
+            },
+        });
 
 
 
