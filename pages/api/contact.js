@@ -22,7 +22,7 @@ export default async function handler(req, res) {
     {
       host: '109.156.76.246',
       database: process.env.DATABASE,
-      port: process.env.PORT,
+      port: parseInt(process.env.PORT),
       user: process.env.USER_NAME,
       password: process.env.PASSWORD,
     }
