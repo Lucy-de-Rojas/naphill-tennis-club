@@ -93,12 +93,7 @@ export default function Contact () {
     return (<Layout>
 
 
-        <h1>Form saving locally {process.env.name}</h1>
-        <h1>Form saving locally {process.env.PORT}</h1>
-        <h1>Form saving locally {process.env.USERNAME}</h1>
-        <h1>Form saving locally {process.env.PASSWORD}</h1>
-        <h1>Form saving locally {process.env.DATABASE}</h1>
-        <h1>Form saving locally {process.env.TABLE_NAME}</h1>
+        <h1>Form saving locally</h1>
 
 
 <div className={styles.wrapper}>
