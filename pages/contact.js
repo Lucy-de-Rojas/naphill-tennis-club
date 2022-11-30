@@ -39,7 +39,6 @@ export default function Contact () {
 
 
 
-
             let name = document.querySelector('#name').value;
             // let phone = document.querySelector('#phone').value;
             // let email = document.querySelector('#email').value;
