@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-   reactStrictMode: false,
-   env: {
-    username: USERNAME,
-   },
+  reactStrictMode: false,
   webpack5: true,
   webpack: (config)=> {
     config.resolve.fallback = {fs:false}
