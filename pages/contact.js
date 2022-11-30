@@ -22,6 +22,7 @@ export default function Contact () {
     console.log('databse from env vars: ',process.env.databse);
     console.log('tableName from env vars: ',process.env.tableName);
 
+    console.log('all env vars: ',process.env);
 
 
         async function handleSubmit () {
