@@ -12,16 +12,6 @@ export default async function handler(req, res) {
 
 
 
-  const mySql = {
-      host: '109.156.76.246',
-      database:'naphill',
-      port: 3306,
-      user: 'lucyderojas',
-      password: 'Filipo13',
-
-  }
-
-
   const mySqlENV = {
       host: '109.156.76.246',
       database: process.env.DATABASE,
@@ -35,26 +25,11 @@ export default async function handler(req, res) {
 
 
 
+  const connection = await mysql.createConnection(mySqlENV);
 
 
 
-
-
-
-
-
-  const connection = await mysql.createConnection({
-    host: '109.156.76.246',
-    database:'naphill',
-    port: 3306,
-    user: 'lucyderojas',
-    password: 'Filipo13',
-
-});
-
-
-
-// getting data:
+// getting data from the front:
     let data = req.body;
     console.log('data from api/contact:>>> ', data);
     console.log('name:>>> ', data.name);
@@ -62,11 +37,18 @@ export default async function handler(req, res) {
 
 
 
-    const query = `insert into name (name) values ('${data.name}')`;
     const values = [];
-
+    if(connection) {
+      console.log('connected to MYSQL!!');
+    }
+    if (!connection) {
+      console.log('NOT connected to MYSQL');
+    }
+    
     if(data.name) {
-
+      
+      
+      const query = `insert into name (name) values ('${data.name}')`;
       const [results] = await connection.execute(query, values);
     }
 
