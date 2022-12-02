@@ -21,15 +21,33 @@ import Layout from "../components/Layout"
 
 export default function Contact () {
     // console.clear();
+
+
+    const dateNow = new Date();
+    const year = dateNow.getFullYear();
+    const month = dateNow.getMonth() + 1;
+    const day = dateNow.getDate();
+    const hour = dateNow.getHours();
+    const minute = dateNow.getMinutes();
+    const second = dateNow.getSeconds();
+
+
+    const timestamp = `${year}-${month}-${day} ${hour}:${minute}:${second}`;
+
+
+
+    console.log('timestamp:>>>>', timestamp);
     console.log('loading contact page');
+
+
+
+    // for the form hook:
     const formDefaults = {defaultValues: {
         name:'',
         email: '',
         message: '',
-        timestamp: '',
+        timestamp: timestamp,
     }};
-
-
 
     // using form hook:
     const {register, handleSubmit, watch, formState: {errors}} = useForm(formDefaults);
@@ -42,82 +60,6 @@ export default function Contact () {
     
     
     
-    async function handleSubmitFunc (data) {
-        console.clear();
-        let name = document.querySelector('#name').value;
-        let email = document.querySelector('#email').value;
-        let message = document.querySelector('#message').value;
-
-
-     
-
-
-
-
-
-
-
-        let dataInput = {
-            name: name,
-            email:email,
-            message:message,
-        }
-
-
-
-
-
-
-        // 
-        
-
-
-
-
-
-
-
-
-            // console.log('data: >>>',data);
-            let response = await fetch('api/contact',{
-                method:'POST',
-                mode: 'cors',
-                cache: 'no-cache',
-                credentials: 'same-origin',
-                headers: {
-                    "Content-Type":"application/json",
-                },
-                
-                body: JSON.stringify(dataInput),
-
-            });
-
-
-
-            
-        // sharing data:
-        Router.push({
-            pathname:'/contact-thank-you',
-            query: {
-                name: name,
-                email: email,
-                message: message,
-            },
-        });
-
-
-
-
-        }
-
-
-        
-
-
-
-
-
-
 
 
 
@@ -132,11 +74,7 @@ export default function Contact () {
 
 
 <form onSubmit={handleSubmit(async(data) => {
-    console.clear();
-    console.log('submitting data from the from');
-    console.log('name:>>>',data.name);
-
-
+  
 
 // sending data to API/Contact:
     let response = await fetch('api/contact',{
