@@ -20,6 +20,11 @@ console.log('hello home page');
   useEffect(()=> {
 
 
+
+
+    
+
+
     async function getData() {
 
       const response = await fetch('api/home');
