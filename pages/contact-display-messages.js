@@ -56,7 +56,9 @@ export default function DisplayMessages() {
 
         <div className={styles.paras}>
         <p>{item.name}</p>
+        <hr className={styles.hr} />
         <p>{item.email}</p>
+        <hr className={styles.hr} />
         <p>{item.timestamp}</p>
         </div>
 
