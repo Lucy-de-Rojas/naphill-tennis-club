@@ -1,6 +1,6 @@
 import Layout from "../components/Layout"
 import {useState, useEffect} from 'react';
-
+import styles from '../styles/contact-display-messages.module.css';
 
 
 
@@ -42,15 +42,38 @@ export default function DisplayMessages() {
 
     return (<Layout>
 
-<h1>All messages from contact page:</h1>
+<h1>All messages <br />from Contact page <br />Total: {messages.length}</h1>
 
 
+
+
+
+
+
+{/* displaying all messages: */}
 {messages.map((item, index) => {
-    return <div key={index}>
-<p>{item.name}: {item.email} : {item.message} : {item.timestamp}</p>
+    return <div key={index} className={styles.wrapper}>
 
-    </div>
-})}
+        <div className={styles.paras}>
+        <p>{item.name}</p>
+        <p>{item.email}</p>
+        <p>{item.timestamp}</p>
+        </div>
+
+        <p className={styles.message}>{item.message}</p>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>})}  {/* end of display all messages */}
 
 
 
