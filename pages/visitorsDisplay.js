@@ -61,14 +61,14 @@ export default function VisitorsDisplay() {
 
 
 
-                return <p className={styles.wrapper}>
+                return <p className={styles.wrapper} key={index}>
                     
-                    <p className={styles.shortLeftPara}>
-                        <p>
+                    <p className={styles.shortLeftPara} key={index}>
+                        <p  key={index}>
 
                     {item.page}
                         </p>
-                        <p>
+                        <p  key={index}>
                       {item.timestamp}
 
                         </p>
@@ -76,10 +76,10 @@ export default function VisitorsDisplay() {
 
 
 {/* IPs: */}
-<p className={styles.ips}>
+<p className={styles.ips}  key={index}>
 
                      {ips.map((item, index)=>{
-                        return <p>{item}</p>
+                        return <p  key={index}>{item}</p>
                      })}
 </p>
                       
