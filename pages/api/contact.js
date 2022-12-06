@@ -1,7 +1,7 @@
 ﻿
 
 import mysql from 'mysql2/promise';
-
+import { mysqlConnect } from '../../utils/connectDB';
 
 
 
@@ -11,21 +11,21 @@ import mysql from 'mysql2/promise';
 export default async function handler(req, res) {
 
 
-
+/*
   const mySqlENV = {
-      host: '109.156.76.246',
+      host: '109.156.170.244',
       database: process.env.DATABASE,
       port: parseInt(process.env.PORT),
       user: process.env.USER_NAME,
       password: process.env.PASSWORD,
     
   }
+*/
 
 
 
 
-
-  const connection = await mysql.createConnection(mySqlENV);
+  const connection = await mysql.createConnection(mysqlConnect);
 
 
 
