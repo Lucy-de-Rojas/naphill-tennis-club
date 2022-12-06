@@ -2,8 +2,13 @@
 import Layout from "../components/Layout"
 import Image from "next/image"
 
-export default function meetLadiesTeam () {
 
+import { logVisitors } from "../utils/logVisitors"
+
+
+
+export default function meetLadiesTeam () {
+        logVisitors('meet the ladies team');
 
     return (<div>
 <Layout>

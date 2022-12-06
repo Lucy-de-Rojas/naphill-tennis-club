@@ -4,10 +4,16 @@ import {getData} from '../libs/getData';
 
 
 import styles from '../styles/about.module.css';
-
 import Layout from "../components/Layout"
 
+
+
+import { logVisitors } from '../utils/logVisitors';
+
+
+
 export default function About () {
+    logVisitors('about');
 
     const [dataWeb, setDataWeb] = useState({});
 

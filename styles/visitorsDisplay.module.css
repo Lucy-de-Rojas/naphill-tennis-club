@@ -1,0 +1,40 @@
+
+
+
+.wrapper {
+    background-color: rgb(246, 139, 139);
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.shortLeftPara {
+    background-color: rgb(156, 245, 156);
+
+    display: flex;
+    flex-direction: column;
+
+    width: 30%;
+}
+
+
+
+
+.ips {
+    background-color: rgb(176, 176, 242);
+    width: 65%;
+
+    padding: 0;
+    margin: 0;
+   
+}
+
+
+
+
+

@@ -7,7 +7,7 @@ import {useForm} from 'react-hook-form';
 import styles from '../styles/contact.module.css';
 import Layout from "../components/Layout"
 import { createTimestamp } from '../utils/createTimestamp';
-
+import { logVisitors } from '../utils/logVisitors';
 
 
 
@@ -20,6 +20,7 @@ import { createTimestamp } from '../utils/createTimestamp';
 
 
 export default function Contact () {
+    logVisitors('contact');
     // console.clear();
 
     const timestamp = createTimestamp();

@@ -1,8 +1,6 @@
-import {  useEffect} from 'react';
-
-import {createTimestamp} from '../utils/createTimestamp';
 
 
+import { createTimestamp } from "./createTimestamp";
 
 
 
@@ -10,7 +8,7 @@ import {createTimestamp} from '../utils/createTimestamp';
 
 
 
-export async function logVisitors(page) {
+export  async function logVisitors(page) {
 
 
 
@@ -54,7 +52,9 @@ export async function logVisitors(page) {
             }
 
 
-            const responseAPI = await fetch("api/logVisitors", insputsFetch);
+            const responseAPI = await fetch('api/logVisitors', insputsFetch);
+
+
 
      
 

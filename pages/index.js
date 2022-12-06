@@ -10,9 +10,6 @@ import { logVisitors } from '../utils/logVisitors';
 import { createTimestamp } from '../utils/createTimestamp';
 
 export default function Home() {
-
-
-
   logVisitors('home');
 
   

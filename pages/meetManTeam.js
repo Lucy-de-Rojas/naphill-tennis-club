@@ -2,7 +2,14 @@
 import Layout from "../components/Layout"
 import Image from "next/image"
 
+
+import { logVisitors } from "../utils/logVisitors"
+
+
+
+
 export default function meetManTeam () {
+        logVisitors('meet the mens team');
 
 
     return (<div>

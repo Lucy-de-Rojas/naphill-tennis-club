@@ -3,10 +3,11 @@ import Layout from "../components/Layout";
 import Link from 'next/link';
 
 import styles from '../styles/bottomLinks.module.css';
-
+import { logVisitors } from '../utils/logVisitors';
 
 
 export default function UpcomingEvents () {
+    logVisitors('upcoming events');
 
     const [dataWeb, setDataWeb] = useState({});
 
