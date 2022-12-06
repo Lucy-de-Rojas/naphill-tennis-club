@@ -6,7 +6,7 @@ import {useForm} from 'react-hook-form';
 
 import styles from '../styles/contact.module.css';
 import Layout from "../components/Layout"
-
+import { createTimestamp } from '../utils/createTimestamp';
 
 
 
@@ -22,18 +22,7 @@ import Layout from "../components/Layout"
 export default function Contact () {
     // console.clear();
 
-
-    const dateNow = new Date();
-    const year = dateNow.getFullYear();
-    const month = dateNow.getMonth() + 1;
-    const day = dateNow.getDate();
-    const hour = dateNow.getHours();
-    const minute = dateNow.getMinutes();
-    const second = dateNow.getSeconds();
-
-
-    const timestamp = `${year}-${month}-${day} ${hour}:${minute}:${second}`;
-
+    const timestamp = createTimestamp();
 
 
     console.log('timestamp:>>>>', timestamp);
