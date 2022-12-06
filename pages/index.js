@@ -11,6 +11,10 @@ import { createTimestamp } from '../utils/createTimestamp';
 
 export default function Home() {
 
+
+
+  logVisitors('home');
+
   
 
 
@@ -34,6 +38,7 @@ console.log('hello home page');
       setData(data);
       console.log('data:>>>',data);
 
+
     }
 
 
@@ -42,9 +47,6 @@ console.log('hello home page');
 
 
     
-// logging visitors:
-  logVisitors('home');
-
 
 
 

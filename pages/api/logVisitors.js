@@ -1,8 +1,5 @@
-
-
-// API
 import mysql from 'mysql2/promise';
-import { mysqlConnect } from '../../utils/connectDB';
+import { mysqlConnect } from "../../utils/connectDB";
 
 
 
@@ -10,30 +7,21 @@ import { mysqlConnect } from '../../utils/connectDB';
 
 export default async function handler(req, res) {
 
+let visitorData = req.body;
 
-    console.log('hello from api/logVisitors:');
+const connection = await mysql.createConnection(mysqlConnect);
 
-// fecthing data from logVisitors:
-    let visitorData = req.body;
-
-    console.log('visitorData from homepage:',data);
-
-
-
-
-
+if(connection) {
+    console.log("connected to MYSQl");
+    const values = [];
+    const query = `insert into visitors (page, ips, timestamp) values ('${visitorData.page}', '${visitorData.visitor}','${visitorData.timestamp}')`;
+    const [results] = await connection.execute(query, values);
+}
 
 
 
-// saving to db:
-// const query = `insert into visitors (page, ips, timestamp) values ('${page}', '${'hellos'}','${timestamp}')`;
-
-        // const connection = await mysql.createConnection(mysqlConnect);
-      //   const values = [];
-    //   const [results] = await connection.execute(query, values);
- 
 
 
+res.json({visitor: 'lucy'});
 
-    res.json({visitors: "visitors"});
 }

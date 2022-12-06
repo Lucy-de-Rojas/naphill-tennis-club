@@ -34,6 +34,10 @@ export default async function handler(req, res) {
       
       const query = `insert into contact (name,email,message,timestamp) values ('${data.name}', '${data.email}','${data.message}','${data.timestamp}')`;
       const [results] = await connection.execute(query, values);
+ 
+ 
+ 
+ 
     }
 
 

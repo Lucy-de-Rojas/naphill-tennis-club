@@ -34,6 +34,8 @@ export async function logVisitors(page) {
                 visitor: visitors,
                 timestamp: timestamp,               
             }
+
+
             console.log('visitor data from utils:',visitorData);
 
 
@@ -48,21 +50,12 @@ export async function logVisitors(page) {
                     "Content-Type":"application/json",
                 },
                 
-                body: JSON.stringify({"visitor": '103.1.1'}),
+                body: JSON.stringify(visitorData),
             }
 
-            const responseVisitor = await fetch('api/logVisitors',insputsFetch);
 
+            const responseAPI = await fetch("api/logVisitors", insputsFetch);
 
-
-            
-
-
-
-
-
-
-
-
+     
 
 }
