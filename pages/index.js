@@ -6,10 +6,12 @@ import Layout from '../components/Layout';
 
 
 import {useState, useEffect} from 'react';
-
-
+import { logVisitors } from '../utils/logVisitors';
+import { createTimestamp } from '../utils/createTimestamp';
 
 export default function Home() {
+
+  
 
 
 console.log('hello home page');
@@ -37,6 +39,13 @@ console.log('hello home page');
 
 
     getData();
+
+
+    
+// logging visitors:
+  logVisitors('home');
+
+
 
 
   },[]);

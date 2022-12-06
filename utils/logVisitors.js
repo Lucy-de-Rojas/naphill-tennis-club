@@ -1,4 +1,4 @@
-import { useState, useEffect} from 'react';
+import {  useEffect} from 'react';
 
 import {createTimestamp} from '../utils/createTimestamp';
 
@@ -7,50 +7,62 @@ import {createTimestamp} from '../utils/createTimestamp';
 
 
 
+
+
+
 export async function logVisitors(page) {
 
-    const [visitorIPs,setVisitorIPs] = useState('');
+
+
+    
 
 
 
-    useEffect(() => {
 
-        async function getVisitorIPs() {
+            const timestamp = createTimestamp();
 
             let response = await fetch('https://ifconfig.me/all.json');
             let visitors = await response.json();
+            // detailes where traffic comes from:
             visitors = visitors.forwarded;
 
-            setVisitorIPs(visitors);
 
 
-            console.log(`data from ifconfig.me/forward for page: ${visitors}}`,visitors);
+
+            const visitorData = {
+                page: page,
+                visitor: visitors,
+                timestamp: timestamp,               
+            }
+            console.log('visitor data from utils:',visitorData);
+
+
+
+
+            const insputsFetch = {
+                method:'POST',
+                mode: 'cors',
+                cache: 'no-cache',
+                credentials: 'same-origin',
+                headers: {
+                    "Content-Type":"application/json",
+                },
+                
+                body: JSON.stringify({"visitor": '103.1.1'}),
+            }
+
+            const responseVisitor = await fetch('api/logVisitors',insputsFetch);
+
+
+
             
 
 
 
 
-        const timestamp = createTimestamp();
-
-    //  sending to api/logVisitors:
-
-    let responseAPI = await fetch('https://api/logVisitors', {})
 
 
 
 
 
-        }
-
-
-        getVisitorIPs();
-    },[]);
-
-
-
-    // console.log('LOG VISITORS: page: >>>> ',page)
-
-
-
-    return page;
 }

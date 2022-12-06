@@ -1,4 +1,4 @@
-﻿import {useState, useEffect, use} from 'react';
+﻿import {useState, useEffect} from 'react';
 import Link from 'next/link';
 import Router from 'next/router';
 import {useForm} from 'react-hook-form';
@@ -66,7 +66,7 @@ export default function Contact () {
   
 
 // sending data to API/Contact:
-    let response = await fetch('api/contact',{
+    let response = await fetch('api/contact', {
         method:'POST',
         mode: 'cors',
         cache: 'no-cache',
