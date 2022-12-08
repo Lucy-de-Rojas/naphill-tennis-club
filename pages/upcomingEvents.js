@@ -7,7 +7,7 @@ import { logVisitors } from '../utils/logVisitors';
 
 
 export default function UpcomingEvents () {
-    logVisitors('upcoming events');
+    // logVisitors('upcoming events');
 
     const [dataWeb, setDataWeb] = useState({});
 

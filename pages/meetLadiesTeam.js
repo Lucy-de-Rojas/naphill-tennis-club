@@ -8,7 +8,7 @@ import { logVisitors } from "../utils/logVisitors"
 
 
 export default function meetLadiesTeam () {
-        logVisitors('meet the ladies team');
+        // logVisitors('meet the ladies team');
 
     return (<div>
 <Layout>

@@ -9,7 +9,7 @@ import { logVisitors } from "../utils/logVisitors"
 
 
 export default function meetManTeam () {
-        logVisitors('meet the mens team');
+        // logVisitors('meet the mens team');
 
 
     return (<div>

@@ -1,7 +1,6 @@
 import {useEffect, useState} from 'react';
 import Layout from '../components/Layout';
 
-
 import styles from '../styles/visitorsDisplay.module.css';
 
 
@@ -11,7 +10,17 @@ export default function VisitorsDisplay() {
 
 
 
+
+
+
+    const perPage = 7;
+
+
     const [visitors, setVisitors] = useState([]);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [numberOfPages, setNumberOfPages] = useState(0);
+    const [extraPage, setExtraPage] = useState(0);
+    const [numberOfVisitors, setNumberOfVisitors ] = useState(0)
 
 
 
@@ -19,13 +28,52 @@ export default function VisitorsDisplay() {
 
 
         async function getVisitors() {
+            console.clear();
+
             let response = await fetch('api/visitorsDisplay');
             let dataVisitors = await response.json();
-            dataVisitors = dataVisitors.results;
+            // dataVisitors = dataVisitors.results;
+
+            console.log('visitors: ', dataVisitors);
+            setVisitors(dataVisitors);
+
+
+
+
+
+
+
+
+
 
             
-            setVisitors(dataVisitors);
-            console.log('visitors: ', dataVisitors);
+            // PAGINATION:
+
+
+            console.log('number of visitors:', visitors.length)
+
+            setNumberOfPages(Math.floor(visitors.length/10));
+            console.log('number of pages: >>', numberOfPages);
+            
+            
+            
+            console.log('extra page:', numberOfPages%perPage >0)
+
+            if(numberOfPages%perPage>0) {
+                
+                setNumberOfPages(numberOfPages+1);
+                console.log('number of pages after extra page:>>> ',numberOfPages)
+
+            }
+
+
+
+
+
+            // end of PAGINATION
+            
+
+
 
         }
 
@@ -52,49 +100,33 @@ export default function VisitorsDisplay() {
 <h1>All visitors:</h1>
 
 
-        {
-            visitors.map((item, index)=>{
-                let ips = item.ips;
-                ips = ips.split(',');
-
-                console.log('isp in arrays:>>>>', ips);
 
 
-
-                return <p className={styles.wrapper} key={index}>
-                    
-                    <p className={styles.shortLeftPara} key={index}>
-                        <p  key={index}>
-
-                    {item.page}
-                        </p>
-                        <p  key={index}>
-                      {item.timestamp}
-
-                        </p>
-                    </p>
-
-
-{/* IPs: */}
-<p className={styles.ips}  key={index}>
-
-                     {ips.map((item, index)=>{
-                        return <p  key={index}>{item}</p>
-                     })}
-</p>
-                      
-                      
-                      
-                      </p>
-                    //   end of wrapper para
-                            })
-        }
-         
+{/* buttons: */}
 
 
 
 
 
+{/* end of buttons */}
+
+
+
+
+{/* display visitors section: */}
+
+
+
+{
+
+visitors.map((item, index)=>{
+    return <p>{item.page}</p>;
+})
+
+
+}
+
+{/*end of  display visitors section: */}
 
     </Layout>)
 }

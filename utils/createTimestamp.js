@@ -9,10 +9,11 @@ export function createTimestamp() {
     const day = dateNow.getDate();
     const hour = dateNow.getHours();
     const minute = dateNow.getMinutes();
+    
     const second = dateNow.getSeconds();
 
 
-    const timestamp = `${year}-${month}-${day} ${hour}:${minute}:${second}`;
+    const timestamp = `${year}-${month}-${day} ${hour}:${minute}`;
 
     return timestamp;
 }

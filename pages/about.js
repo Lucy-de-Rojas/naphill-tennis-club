@@ -13,7 +13,7 @@ import { logVisitors } from '../utils/logVisitors';
 
 
 export default function About () {
-    logVisitors('about');
+    // logVisitors('about');
 
     const [dataWeb, setDataWeb] = useState({});
 

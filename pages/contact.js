@@ -20,7 +20,7 @@ import { logVisitors } from '../utils/logVisitors';
 
 
 export default function Contact () {
-    logVisitors('contact');
+    // logVisitors('contact');
     // console.clear();
 
     const timestamp = createTimestamp();
