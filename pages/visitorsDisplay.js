@@ -120,7 +120,7 @@ export default function VisitorsDisplay() {
 {
 
 visitors.map((item, index)=>{
-    return <p>{item.page}</p>;
+    return <p key={index}>{item.page}</p>;
 })
 
 
