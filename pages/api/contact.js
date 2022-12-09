@@ -20,7 +20,6 @@ export default async function handler(req, res) {
 
 
 
-    const values = [];
     if(connection) {
       console.log('connected to MYSQL!!');
     }
@@ -32,6 +31,8 @@ export default async function handler(req, res) {
       
       
       const query = `insert into contact (name,email,message,timestamp) values ('${data.name}', '${data.email}','${data.message}','${data.timestamp}')`;
+      
+      const values = [];
       const [results] = await connection.execute(query, values);
  
  

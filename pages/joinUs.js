@@ -13,7 +13,13 @@ import {useForm} from 'react-hook-form';
 
 
 
+
 import IndividualMembershipForm from "../components/individualMembershipForm";
+import CoupleMembershipForm from "../components/coupleMembershipForm";
+
+
+
+
 
 
 export default function JoinUs () {
@@ -39,6 +45,9 @@ export default function JoinUs () {
 <Layout>
 
 <IndividualMembershipForm />
+<CoupleMembershipForm />
+
+
 
     
 
