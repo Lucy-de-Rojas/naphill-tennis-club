@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 
 
 import {useState, useEffect} from 'react';
+let regex = /T[A-Z0-9:.]*/gi;
 
 
 
@@ -39,10 +40,20 @@ export default function JoinUsDisplayAllMembers() {
 
     return (<Layout>
 <h1>All Memberships:</h1>
+<hr />
 
 {results.map((item, index)=>{
     return <div key={index}>
-        {item.first_name}, {item.surname}, {item.membershipSTART}, {item.membershipEND},
+
+        {item.first_name} {item.surname},
+
+         <br />
+START: 
+         {item.membershipSTART.replace(regex,'')}, 
+
+         <br />
+        END: {item.membershipEND.replace(regex, '')}
+        <hr />
     </div>
 })}
 

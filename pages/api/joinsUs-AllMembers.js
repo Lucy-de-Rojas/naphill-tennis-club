@@ -25,6 +25,8 @@ export default async function handler(req, res) {
           
         const values = [];
         const [results] = await connection.execute(query, values);
+
+        console.log('all members from API: >>', results)
     
     
     
