@@ -4,7 +4,7 @@
 
 
 export const mysqlConnect = {
-    host: '109.156.170.244',
+    host: '86.177.224.30',
     database: process.env.DATABASE,
     port: parseInt(process.env.PORT),
     user: process.env.USER_NAME,

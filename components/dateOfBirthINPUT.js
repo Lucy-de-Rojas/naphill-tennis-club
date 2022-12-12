@@ -1,6 +1,5 @@
 
 
-
 export default function DateOfBirth() {
 
 
@@ -9,6 +8,9 @@ export default function DateOfBirth() {
 
     return (
         <div>
+
+
+
 
             
 

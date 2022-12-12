@@ -22,7 +22,7 @@ export default async function handler(req, res) {
 
 
     // query:
-    const query = `insert into membership (first_name, surname, email, phone, address, date_of_birth, membership, membershipSTART,membershipEND, membershipYEARS) values('${data.first_name}', '${data.surname}', '${data.email}', '${data.phone}', '${data.address}', '${data.date_of_birth}', '${data.membership}', '${data.membershipSTART}','${data.memnershipEND}' ,'${data.membershipYEARS}')`;
+    const query = `insert into membership (first_name, surname, email, phone, address, date_of_birth, membership, membershipSTART,membershipEND, membershipYEARS) values('${data.first_name}', '${data.surname}', '${data.email}', '${data.phone}', '${data.address}', '${data.date_of_birth}', '${data.membership}', '${data.membershipSTART}','${data.membershipEND}' ,'${data.membershipYEARS}')`;
     
     
     

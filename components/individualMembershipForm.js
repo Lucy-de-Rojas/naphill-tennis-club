@@ -4,6 +4,8 @@ import {useForm} from 'react-hook-form';
 import { createDATE } from "../utils/createDATE";
 import { getIndividualMembershipData } from "../utils/getIndividualMembershipData";
 
+import styles from '../styles/joinUs.module.css';
+
 
 
 export default function IndividualMembershipForm() {
@@ -28,7 +30,7 @@ const formDefaults = {defaultValues: {
     couple: '',
     family: '',
     membershipSTART: DATE,
-    memnershipEND: DATEexp,
+    membershipEND: DATEexp,
     membershipYEARS: membershipYEARS,
 }};
 
@@ -51,7 +53,7 @@ const {register, handleSubmit, watch, formState: {errors}} = useForm(formDefault
 
 return <div>
     
-<h1>Individual Membership:</h1>
+<h1>Membership:</h1>
 <form onSubmit={handleSubmit(getIndividualMembershipData)}>
 
 
@@ -61,7 +63,8 @@ return <div>
         ...register("first_name",{
             required: {value: true, message: "we need your first name",},
             minLength: {value: 1, message: "your name needs at least 2 letters"},
-            maxLength: {value:49, message: 'your name is too long' }, 
+            maxLength: {value:49, message: 'your name is too long' },
+            placeholder:'First name', 
         })
     } 
         type="text"
@@ -137,6 +140,7 @@ return <div>
 {/* address: */}
     <textarea
             rows="5"
+            placeholder="Address"
     {
         ...register("address",{
             required: {value: true, message: 'we do need your address'},
@@ -168,32 +172,82 @@ Date of Birth:
 
 
 
+<hr />
+<h2>Choose your membership:</h2>
+<hr />
 
 
-
-    
-<br />
-
+    {/* radio buttons container: */}
+<div className={styles.radios}>
 {/* radio buttons: */}
 <label>
+    <p>
+
     Adult
+    </p>
+
     <input type="radio" value="adult" {...register("membership", {required:true})} />
+    <p>£10</p>
 </label>
 
+
+
+
 <label>
+    <p>
+
     Under 7
+    </p>
     <input type="radio" value="under 7" {...register("membership", {required:true})} />
+    <p>£10</p>
 </label>
+
+
+
+
+
+
 
 
 <label>
-    Junior    <input type="radio" value="junior" {...register("membership", {required:true})} />
+    <p>
+        Junior    
+        </p>
+        <input type="radio" value="junior" {...register("membership", {required:true})} />
+        <p>£54</p>
 </label>
+
+
+
+
+
+
+<label>
+    <p>
+        Retired   
+        </p>
+        
+         <input type="radio" value="junior" {...register("membership", {required:true})} />
+         <p>$69</p>
+        
+</label>
+</div>
+<hr />
+
 
 <p>{errors.membership?.type==="required" && "We need your membership type"}</p>
 
+
+
+
+
+
+
+
+
+
 {/* submit individual form: */}
-<input type="submit" value="Submit Individual Membership" />
+<input type="submit" value="Submit Membership" />
 </form>
 {/* ned of individual membership */}
 

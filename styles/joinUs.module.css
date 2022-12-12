@@ -1,0 +1,19 @@
+
+
+
+.radios {
+    /* background-color: rgb(244, 182, 182); */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20%;
+}
+
+
+.radios > * {
+    background-color: rgb(160, 211, 160);
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+}
+
+
+
