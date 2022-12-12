@@ -11,8 +11,9 @@
 
 .radios > * {
     background-color: rgb(160, 211, 160);
-    border-left: 5px solid red;
-    border-right: 5px solid red;
+    min-width: 20%;
+    /* border-left: 5px solid red;
+    border-right: 5px solid red; */
 }
 
 

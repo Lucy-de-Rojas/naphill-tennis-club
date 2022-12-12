@@ -177,18 +177,14 @@ Date of Birth:
 <hr />
 
 
+
+
+
     {/* radio buttons container: */}
 <div className={styles.radios}>
+
+
 {/* radio buttons: */}
-<label>
-    <p>
-
-    Adult
-    </p>
-
-    <input type="radio" value="adult" {...register("membership", {required:true})} />
-    <p>£10</p>
-</label>
 
 
 
@@ -199,11 +195,8 @@ Date of Birth:
     Under 7
     </p>
     <input type="radio" value="under 7" {...register("membership", {required:true})} />
-    <p>£10</p>
+    <p>£15</p>
 </label>
-
-
-
 
 
 
@@ -214,8 +207,32 @@ Date of Birth:
         Junior    
         </p>
         <input type="radio" value="junior" {...register("membership", {required:true})} />
-        <p>£54</p>
+        <p>£20</p>
 </label>
+
+
+
+
+
+
+
+
+
+
+
+<label>
+    <p>
+
+    Adult
+    </p>
+
+    <input type="radio" value="adult" {...register("membership", {required:true})} />
+    <p>£70</p>
+</label>
+
+
+
+
 
 
 
@@ -228,7 +245,7 @@ Date of Birth:
         </p>
         
          <input type="radio" value="junior" {...register("membership", {required:true})} />
-         <p>$69</p>
+         <p>$50</p>
         
 </label>
 </div>
