@@ -62,6 +62,10 @@ console.log('hello home page');
         <title>
           Tennis High Wycombe, Bucks, Buckinghamshire
         </title>
+
+
+        {/* google search engine link: */}
+        <meta name="google-site-verification" content="-U70Yo_PUyJNjtc9GuyqT4vWVG0UDMjNYE247B5sORY" />
       </Head>
 
 
