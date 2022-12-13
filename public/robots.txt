@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: http://localhost:3000/
+Host: https://naphill-tennis-club.vercel.app/
 
 # Sitemaps
-Sitemap: http://localhost:3000/sitemap.xml
+Sitemap: https://naphill-tennis-club.vercel.app/sitemap.xml
