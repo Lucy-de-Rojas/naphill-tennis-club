@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import Router from 'next/router';
 import {useForm} from 'react-hook-form';
-
+import Head from 'next/head';
 
 import styles from '../styles/contact.module.css';
 import Layout from "../components/Layout"
@@ -56,7 +56,9 @@ export default function Contact () {
 
 
     return (<Layout>
-
+<Head><title>
+    Tennis sessions for schools High Wycombe, Bucks, Buckinghamshire
+    </title></Head>
 
         <h1>Contact Naphill Tennis Club</h1>
 

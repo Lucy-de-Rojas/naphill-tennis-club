@@ -1,7 +1,7 @@
 ﻿
 import Layout from "../components/Layout"
 import Image from "next/image"
-
+import Head from "next/head"
 
 import { logVisitors } from "../utils/logVisitors"
 
@@ -14,6 +14,11 @@ export default function meetManTeam () {
 
     return (<div>
 <Layout>
+<Head><title>
+    Tennis sessions for the retired, High Wycombe, Bucks, Buckinghamshire
+    </title></Head>
+
+
 <h1>Meet the Mens Team</h1>
 
 <Image

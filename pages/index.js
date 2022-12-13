@@ -58,6 +58,11 @@ console.log('hello home page');
 
   return (
     <Layout>
+      <Head>
+        <title>
+          Tennis High Wycombe, Bucks, Buckinghamshire
+        </title>
+      </Head>
 
 
 <h1>{data.title}</h1>

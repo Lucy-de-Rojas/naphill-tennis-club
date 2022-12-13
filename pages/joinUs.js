@@ -1,6 +1,8 @@
 ﻿
 import Router from 'next/router';
 import {useForm} from 'react-hook-form';
+import Head from 'next/head';
+
 
 
 import Layout from "../components/Layout"
@@ -47,6 +49,11 @@ export default function JoinUs () {
 
     return (<div>
 <Layout>
+    <Head>
+        <title>
+            Tennis refreshers High Wycombe, Bucks, Buckinghamshire
+        </title>
+    </Head>
 
 <IndividualMembershipForm />
 

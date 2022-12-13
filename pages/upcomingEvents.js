@@ -1,6 +1,8 @@
 ﻿import {useEffect, useState} from 'react';
 import Layout from "../components/Layout";
 import Link from 'next/link';
+import Head from 'next/head';
+
 
 import styles from '../styles/bottomLinks.module.css';
 import { logVisitors } from '../utils/logVisitors';
@@ -37,6 +39,12 @@ export default function UpcomingEvents () {
 
     return (<div>
 <Layout>
+<Head><title>
+    Tennis courts for hire, High Wycombe, Bucks, Buckinghamshire
+    </title></Head>
+
+
+
 <h1>{dataWeb.title}</h1>
 
 

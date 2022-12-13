@@ -1,8 +1,8 @@
 ﻿
 import { useState, useEffect} from 'react';
+import Head from 'next/head';
+
 import {getData} from '../libs/getData';
-
-
 import styles from '../styles/about.module.css';
 import Layout from "../components/Layout"
 
@@ -37,6 +37,11 @@ export default function About () {
 
     return (<div>
         <Layout>
+            <Head>
+                <title>
+                    Tennis coaching for children, juniors, High Wycombe, Bucks, Buckinghamshire
+                </title>
+            </Head>
 
         <h1>{dataWeb.title}</h1>
 
