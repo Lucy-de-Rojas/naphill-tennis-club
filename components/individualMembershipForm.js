@@ -53,8 +53,121 @@ const {register, handleSubmit, watch, formState: {errors}} = useForm(formDefault
 
 return <div>
     
-<h1>Membership:</h1>
+<h1>Membership</h1>
 <form onSubmit={handleSubmit(getIndividualMembershipData)}>
+
+
+
+
+
+
+
+
+
+
+<hr />
+<h2>Choose your membership:</h2>
+{/* <hr /> */}
+
+
+
+
+
+    {/* radio buttons container: */}
+<div className={styles.radios}>
+
+
+{/* radio buttons: */}
+
+
+
+
+<label>
+    <p>
+
+    Under 7
+    </p>
+    <input type="radio" value="under 7" {...register("membership", {required:true})} />
+    <p>£15</p>
+</label>
+
+
+
+
+
+<label>
+    <p>
+        Junior    
+        </p>
+        <input type="radio" value="junior" {...register("membership", {required:true})} />
+        <p>£20</p>
+</label>
+
+
+
+
+
+
+
+
+
+
+
+<label>
+    <p>
+
+    Adult
+    </p>
+
+    <input type="radio" value="adult" {...register("membership", {required:true})} />
+    <p>£70</p>
+</label>
+
+
+
+
+
+
+
+
+
+
+<label>
+    <p>
+        Retired   
+        </p>
+        
+         <input type="radio" value="junior" {...register("membership", {required:true})} />
+         <p>£50</p>
+        
+</label>
+</div>
+{/* <hr /> */}
+
+
+<p>{errors.membership?.type==="required" && "We need your membership type"}</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     {/* first_name: */}
@@ -155,7 +268,7 @@ return <div>
 <br />
 {/* date_of_birth: */}
 <label>
-Date of Birth:
+Date of Birth:<br />
     <input
         type="date"
         {
@@ -170,89 +283,6 @@ Date of Birth:
         <p>{errors.date_of_birth?.message}</p>
 
 
-
-
-<hr />
-<h2>Choose your membership:</h2>
-<hr />
-
-
-
-
-
-    {/* radio buttons container: */}
-<div className={styles.radios}>
-
-
-{/* radio buttons: */}
-
-
-
-
-<label>
-    <p>
-
-    Under 7
-    </p>
-    <input type="radio" value="under 7" {...register("membership", {required:true})} />
-    <p>£15</p>
-</label>
-
-
-
-
-
-<label>
-    <p>
-        Junior    
-        </p>
-        <input type="radio" value="junior" {...register("membership", {required:true})} />
-        <p>£20</p>
-</label>
-
-
-
-
-
-
-
-
-
-
-
-<label>
-    <p>
-
-    Adult
-    </p>
-
-    <input type="radio" value="adult" {...register("membership", {required:true})} />
-    <p>£70</p>
-</label>
-
-
-
-
-
-
-
-
-
-
-<label>
-    <p>
-        Retired   
-        </p>
-        
-         <input type="radio" value="junior" {...register("membership", {required:true})} />
-         <p>£50</p>
-        
-</label>
-</div>
-<hr />
-
-
-<p>{errors.membership?.type==="required" && "We need your membership type"}</p>
 
 
 

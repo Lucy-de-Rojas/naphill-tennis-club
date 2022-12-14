@@ -15,7 +15,7 @@ export default function Logo () {
 <Link href='/'>
         <Image
 
-src= '/Media/LogosAndIcons/NaphillTennisClub-Logo.png'
+src= '/Media/LogosAndIcons/NaphillTennisClub-LogoNEW.png'
 width='1559'
 height='850'
 alt="naphill tennis club logo"

@@ -143,6 +143,7 @@ export default function Contact () {
             minLength: {value: 10, message: 'too short, 10 characters at least'},
             maxLength: {value: 2000, message: 'too long'},
         })}
+        placeholder='message'
     
     ></textarea>
     <p>{errors.message?.message}</p>
