@@ -18,9 +18,6 @@ The site has been in use years 2014-2022 where I helped updating the content on 
 <p>The site has few content ideas created to help promote the club in a positive fun way. Home page for example has a short (music) video explaining aspects of tennis and way people should play tennis encouraging for try out games. </p>
 
 
-[Video](public/Media/videos/What-is-Tennis-by-Lucy-de-Rojas.mp4)
-What-is-Tennis-by-Lucy-de-Rojas.mp4
-
 
 
 
