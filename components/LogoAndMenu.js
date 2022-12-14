@@ -5,6 +5,8 @@ import Logo from './Logo';
 
 import MainNavigation from './MainNavigation';
 
+import MainNavigationBurgerMenu from "./MainNavigationBurgerMenu";
+
 
 
 
@@ -15,21 +17,22 @@ export default function LogoAndMenu () {
 
 <Logo />
 
+<MainNavigationBurgerMenu />
+
+{/* 
 <input type="checkbox" id="check" className={styles.check} />
-
-
 
 
 <label for="check" className={styles.label}>
 
 
-</label>
+</label> */}
 
 
 
 <div className={styles.content}>
 
-<MainNavigation />
+{/* <MainNavigation /> */}
 
 </div>
 

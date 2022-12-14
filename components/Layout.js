@@ -4,10 +4,12 @@ import Head from "next/head";
 import MainNavigation from "./MainNavigation"
 import BottomLinks from "./BottomLinks"
 import RightNavigation from "./RightNavigation"
-import LogoAndMenu from "./Logo-and-Menu"
+import LogoAndMenu from "./LogoAndMenu"
 
 import styles from '../styles/layout.module.css';
 import {useState, useEffect} from 'react';
+
+
 
 
 import Script from "next/script";
@@ -38,6 +40,7 @@ export default function Layout ({children}) {
 
 
 </Head>
+
 
 <LogoAndMenu />
 

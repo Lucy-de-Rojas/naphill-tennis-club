@@ -245,7 +245,7 @@ Date of Birth:
         </p>
         
          <input type="radio" value="junior" {...register("membership", {required:true})} />
-         <p>$50</p>
+         <p>£50</p>
         
 </label>
 </div>
