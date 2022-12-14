@@ -145,7 +145,7 @@ return <div>
 {/* <hr /> */}
 
 
-<p>{errors.membership?.type==="required" && "We need your membership type"}</p>
+<p className={styles.errormessage}>{errors.membership?.type==="required" && "We need your membership type"}</p>
 
 
 
@@ -183,7 +183,7 @@ return <div>
         type="text"
         placeholder="first name"
          />
-         <p>{errors.first_name?.message}</p>
+         <p className={styles.errormessage}>{errors.first_name?.message}</p>
 
 
 
@@ -203,7 +203,7 @@ return <div>
         type="text"
         placeholder="surname"
          />
-         <p>{errors.surname?.message}</p>
+         <p className={styles.errormessage}>{errors.surname?.message}</p>
 
 
 
@@ -223,7 +223,7 @@ return <div>
         type="email"
         placeholder="email"
          />
-         <p>{errors.email?.message}</p>
+         <p className={styles.errormessage}>{errors.email?.message}</p>
 
 
 
@@ -246,7 +246,7 @@ return <div>
         type="tel"
         placeholder="phone"
          />
-         <p>{errors.phone?.message}</p>
+         <p className={styles.errormessage}>{errors.phone?.message}</p>
 
 
 
@@ -263,6 +263,7 @@ return <div>
         })
     }>
     </textarea>
+    <p  className={styles.errormessage}>{errors.address?.message}</p>
 
 
 <br />
@@ -280,7 +281,7 @@ Date of Birth:<br />
         
         />
         </label>
-        <p>{errors.date_of_birth?.message}</p>
+        <p className={styles.errormessage}>{errors.date_of_birth?.message}</p>
 
 
 

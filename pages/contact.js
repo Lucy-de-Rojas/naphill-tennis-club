@@ -109,7 +109,7 @@ export default function Contact () {
     })}
         type="text"
         placeholder='name' />
-        <p>{errors.name?.message}</p>
+        <p className={styles.errormessage}>{errors.name?.message}</p>
 
 
 
@@ -128,7 +128,7 @@ export default function Contact () {
 
     placeholder='email'
     type="email" />
-    <p>{errors.email?.message}</p>
+    <p className={styles.errormessage}>{errors.email?.message}</p>
     
 
 
@@ -146,7 +146,7 @@ export default function Contact () {
         placeholder='message'
     
     ></textarea>
-    <p>{errors.message?.message}</p>
+    <p className={styles.errormessage}>{errors.message?.message}</p>
 
 
 
