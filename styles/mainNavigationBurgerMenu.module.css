@@ -20,19 +20,30 @@
 
 
 
-    padding: 20px 0;
+    padding: 40px 0;
     position: absolute;
     top: 0;
-    left: 0;
 
     transform: translateX(-150%);
 
-    background-color: rgb(247, 147, 147);
+    opacity: 0;
+
+    /* background-color: "#fff200"; */
     display: flex;
     flex-direction: column;
 
     border-radius: 5px;
+    z-index: 10;
 }
+
+
+
+
+
+.menu {
+    margin-left: 20px;
+}
+
 
 
 

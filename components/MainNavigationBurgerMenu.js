@@ -1,5 +1,8 @@
 
-import Hamburger from "hamburger-react";
+// import Hamburger from "hamburger-react";
+// import {Divide as Hamburger} from 'hamburger-react';
+import {Sling as Hamburger } from 'hamburger-react';
+
 import anime from "animejs";
 
 import {useState, useEffect} from 'react';
@@ -16,18 +19,19 @@ export default function MainNavigationBurgerMenu() {
 
         let navigation = document.querySelector('.mainNavigationBurgerMenu_navigation__gdlOJ');
 
+
         // open:
         if(!isOpen) {
-            console.log('open navigation');
+            console.log('opening navigation');
 
-            // navigation.style.backgroundColor = '#fff200';
 
             anime({
                 targets: navigation,
                 duration: 800,
                 translateX: 0,
                 easing: "easeInOutSine",
-                backgroundColor: "#fff200",
+                backgroundColor: "#049919",
+                opacity: 1,
 
 
             });
@@ -42,16 +46,16 @@ export default function MainNavigationBurgerMenu() {
         }
         // to close:
         else {
-            console.log('hide navigation');
+            console.log('hiding navigation');
             
-            // navigation.style.backgroundColor = '#049919';
 
             anime({
                 targets: navigation,
                 duration: 800,
                 translateX: "-100%",
                 easing: "easeInOutSine",
-                backgroundColor: "#049919",
+                backgroundColor: "#fff200",
+                opacity: 0,
 
                 
 
@@ -67,7 +71,12 @@ const [isOpen, setOpen] = useState(false)
 
     return (<div>
 
-        <Hamburger toggled={isOpen} toggle={setOpen} onToggle={doSomething} rounded />
+<div className={styles.menu}>
+
+        <Hamburger toggled={isOpen} toggle={setOpen} onToggle={doSomething} rounded easing="ease-in" color="#049919"
+        label="Show Menu" size={50}
+        
+        /></div>
 
 
 
@@ -87,9 +96,7 @@ const [isOpen, setOpen] = useState(false)
 
 
 
-        </nav>
-
-</div>
+        </nav></div>
 
     
     </div>)
