@@ -15,7 +15,7 @@ The site has been in use years 2014-2022 where I helped updating the content on 
 <p>Given a free hand to style colours, fonts and logo I was really happy to create professional looking site for a small village club.</p>
 
 <h2>Content</h2>
-<p>The site has few content ideas created to help promote the club in a positive fun way. Home page for example has a short (music) video explaining aspects of tennis and way people should play tennis encouraging for try out games. </p>
+<p width="50%">The site has few content ideas created to help promote the club in a positive fun way. Home page for example has a short (music) video explaining aspects of tennis and way people should play tennis encouraging for try out games. </p>
 
 
 
