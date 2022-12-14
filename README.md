@@ -12,26 +12,26 @@ The site has been in use years 2014-2022 where I helped updating the content on 
 
 
 <h2>Branding</h2>
-<hr />
+
 <p></p>
 
 <h2>Content</h2>
-<hr />
+
 <p></p>
 
 
 <h2>Front End</h2>
-<hr />
+
 <p></p>
 
 
 <h2>Back End</h2>
-<hr />
+
 <p></p>
 
 
 <h2>SEO</h2>
-<hr />
+
 <p></p>
 
 
@@ -42,7 +42,7 @@ The site has been in use years 2014-2022 where I helped updating the content on 
 
 
 
-<hr />
+
 <a href="https://naphill-tennis-club.vercel.app/">See website</a>
 </div>
 
