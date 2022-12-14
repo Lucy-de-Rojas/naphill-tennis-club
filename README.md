@@ -15,14 +15,19 @@ The site has been in use years 2014-2022 where I helped updating the content on 
 <p>Given a free hand to style colours, fonts and logo I was really happy to create professional looking site for a small village club.</p>
 
 <h2>Content</h2>
-<p width="50%">The site has few content ideas created to help promote the club in a positive fun way. Home page for example has a short (music) video explaining aspects of tennis and way people should play tennis encouraging for try out games. </p>
+<p>The site has few content ideas created to help promote the club in a positive fun way. Home page for example has a short (music) video explaining aspects of tennis and way people should play tennis encouraging for try out games. Posters for upcoming and past events are also included. Really enjoyed video editing, as this was first one of my first attempts on video editing using Windows Video Editor.</p>
 
+
+<img  src="./public/Media/videos/WhatIsTennis.gif" width="80%"/>
 
 
 
 
 <h2>Front End</h2>
-<p></p>
+<p>
+media queries
+
+</p>
 
 
 <h2>Back End</h2>
@@ -38,7 +43,8 @@ The site has been in use years 2014-2022 where I helped updating the content on 
 <p></p>
 
 
-
+<h2>Challenges of the project</h2>
+<p></p>
 
 
 <a href="https://naphill-tennis-club.vercel.app/">See website</a>
