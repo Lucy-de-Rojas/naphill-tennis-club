@@ -7,7 +7,7 @@ import RightNavigation from "./RightNavigation"
 import LogoAndMenu from "./LogoAndMenu"
 
 import styles from '../styles/layout.module.css';
-import {useState, useEffect} from 'react';
+
 
 
 
@@ -47,6 +47,7 @@ export default function Layout ({children}) {
 
 
 
+
         <div className={styles.content}>
 
 
@@ -57,7 +58,13 @@ export default function Layout ({children}) {
 </div>
 
         </div>
+        
 
 <BottomLinks />
+
+
+        
+
+
     </div>)
 }
