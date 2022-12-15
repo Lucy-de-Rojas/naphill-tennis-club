@@ -63,7 +63,7 @@ media queries
 
 
 <br /><br />
-<img src="./public/Media/readmeFiles/Headers-SEO.svg"> width="100%"/>
+<img src="./public/Media/readmeFiles/Headers-SEO.svg" width="100%"/>
 <!-- <h2>SEO</h2> -->
 <p></p>
 
