@@ -50,16 +50,23 @@ Posters:
 <img src="./public/Media/readmeFiles/Headers-FrontEnd.svg" width="100%"/>
 <!-- <h2>Front End</h2> -->
 <p>
-For
-media queries
+For front end: Next JS.<br />
+<img src="./public/Media/readmeFiles/Nextjs-logo.svg" width="20%"/>
+<br />
+To gather data from the forms: React-Hook-Forms.<br />
 
+<img src="./public/Media/readmeFiles/react-hook-form.svg" width="20%"/>
+<br />
+
+Icons used at the bottom of the page: FontAwesome.<br />
+<img src="./public/Media/readmeFiles/fontawesome.svg" width="20%"/>
 </p>
 
 
 <br /><br />
 <img src="./public/media/readmeFiles/Headers-BackEnd.svg" width="100%"/>
 <!-- <h2>Back End</h2> -->
-<p></p>
+<p>Back end is solved using API part of Next JS with MYSQL database installed and running on Raspberry Pi 4 with remote access enabled.</p>
 
 
 <br /><br />
@@ -82,8 +89,9 @@ media queries
 
 
 <br /><br />
-<img src="./public/media/readmeFiles/Headers-Link.svg" width="100%"/>
-<a href="https://naphill-tennis-club.vercel.app/">Naphill Tennis Club site </a>
+<img src="./public/media/readmeFiles/Headers-Link.svg" width="100%" />
+<a href="https://naphill-tennis-club.vercel.app/">
+Naphill Tennis Club site </a>
 </div>
 
 
