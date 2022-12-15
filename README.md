@@ -182,6 +182,8 @@ Struggled with:<br />
 
 
 <br /><br />
+<img src="./public/Media/readmeFiles/Headers-Link.svg" width="30%" />
+<img src="./public/Media/readmeFiles/Headers-Link.png" width="30%" />
 <img src="./public/media/readmeFiles/Headers-Link.svg" width="100%" />
 <a href="https://naphill-tennis-club.vercel.app/">
 Naphill Tennis Club site </a>
