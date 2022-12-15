@@ -125,29 +125,30 @@ Tennis sessions for schools High Wycombe, Bucks, Buckinghamshire
 <br /><br />
 <img src="./public/Media/readmeFiles/Headers-usedLibraries_Hooks.svg" width="100%"/>
 <!-- <h2>Used Libraries & Hooks</h2> -->
-Font Awesome - incons at the bottom of page links<br />
-<img src="./public/Media/readmeFiles/fontawesome.svg" width="30%"/><br /><br />
+Font Awesome - incons at the bottom of page links<br /><br />
+<img src="./public/Media/readmeFiles/fontawesome.svg" width="30%"/><br /><br /><br />
 
 
-next js - for creating the site<br />
-<img src="./public/Media/readmeFiles/Nextjs-logo.svg" width="30%"/><br /><br />
-
-mysql:
-<img src="./public/Media/readmeFiles/MySQL-Logo.svg" width="30%"/><br /><br />
+Next js - for creating the site<br /><br />
+<img src="./public/Media/readmeFiles/Nextjs-logo.svg" width="30%"/><br /><br /><br />
 
 
-react-hook-form:
-<img src="./public/Media/readmeFiles/fontawesome.svg" width="30%" /><br /><br />
+MYSQL + mysql2 - storing persistent data<br /><br />
+<img src="./public/Media/readmeFiles/MySQL-Logo.svg" width="30%"/><br /><br /><br />
 
-next sitemap:
-<img src="./public/Media/readmeFiles/Nextjs-sitemapsvg.svg" width="30%" /><br /><br />
 
-anime js:
-<img src="./public/Media/readmeFiles/AnimeJS.svg" width="30%" /><br /><br />
+react-hook-form - for gathering data from front end and sending it over to API <br /><br />
+<img src="./public/Media/readmeFiles/react-hook-form.svg" width="30%" /><br /><br /><br />
 
-hamburger-react:
+next sitemap  - for generating sitemap <br /><br />
+<img src="./public/Media/readmeFiles/Nextjs-sitemapsvg.svg" width="30%" /><br /><br /><br />
+
+anime js - for sliding navigation in and out <br /><br />
+<img src="./public/Media/readmeFiles/AnimeJS.svg" width="30%" /><br /><br /><br />
+
+hamburger-react  - burger menu with transitions <br /><br />
 <img src="./public/Media/readmeFiles/hamburger-react.svg" width="30%" /> <br /><br />
-<p></p>
+
 
 
 
@@ -158,6 +159,15 @@ hamburger-react:
 <br /><br />
 <img src="./public/Media/readmeFiles/Headers-ProjectTakeAways.svg" width="100%"/>
 <!-- <h2>Challenges of the project</h2> -->
+
+Learned:
+
+ <br />
+Struggled with:<br />
+
+
+
+
 <p></p>
 
 
