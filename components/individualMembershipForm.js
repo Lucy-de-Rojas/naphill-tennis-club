@@ -81,6 +81,18 @@ return <div>
 
 
 
+<label>
+    <p>
+
+    Disabled
+    </p>
+    <input type="radio" value="disabled" {...register("membership", {required:true})} />
+    <p>FREE</p>
+</label>
+
+
+
+
 
 <label>
     <p>

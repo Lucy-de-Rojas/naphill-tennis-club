@@ -78,7 +78,13 @@ Icons used at the bottom of the page: FontAwesome.<br />
 <br /><br />
 <img src="./public/Media/readmeFiles/Headers-SEO.svg" width="100%"/>
 <!-- <h2>SEO</h2> -->
-<p></p>
+<p>
+SEO was focused on local searches in High Wycombe/Buckinghamshire area, for anyone enquirying about tennis coaching, playing tennis for various age groups. 
+
+The name of the club is incorporated into url, for anyone looking for Naphill Tennis Club.
+
+
+</p>
 
 
 
