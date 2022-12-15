@@ -66,14 +66,12 @@ Icons used at the bottom of the page: FontAwesome.<br />
 
 
 
-
 <br /><br />
-<img src="./public/media/readmeFiles/Headers-BackEnd.png" width="100%"/>
+<img src="./public/Media/readmeFiles/Headers-BackEnd.svg" width="100%" /> 
 <!-- <h2>Back End</h2> -->
 <p>Back end is solved using API part of Next JS with MYSQL database installed and running on Raspberry Pi 4 with remote access enabled.
 <br />
 
-<img src="./public/Media/readmeFiles/Headers-BackEnd.svg" width="30%" /> 
 
 <img src="./public/Media/readmeFiles/MySQL-Logo.svg/" width="20%">
 <br />
