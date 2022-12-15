@@ -37,7 +37,7 @@ The site has been in use years 2014-2022 where I helped updating the content on 
 <br /><br />
 <div align="left">
 <a href="#home">
-<img src="./public/Media/readmeFiles/HomeBTN.png" width="30%" />
+<img src="./public/Media/readmeFiles/HomeBTN.png" width="15%" />
 </a></div>
 <br /><br />
 
@@ -57,6 +57,12 @@ Posters:
 <img src="./public/Media/images/tennisBallMachineChallenge.jpg" width="51%"/>
 
 
+<br /><br />
+
+<div align="left">
+<a href="#home">
+<img src="./public/Media/readmeFiles/HomeBTN.png" width="15%" />
+</a></div>
 <br /><br />
 <img src="./public/Media/readmeFiles/Headers-FrontEnd.svg" width="100%"/>
 <!-- <h2>Front End</h2> -->
@@ -96,6 +102,12 @@ Icons used at the bottom of the page: FontAwesome.<br />
 
 
 
+<br /><br />
+
+<div align="left">
+<a href="#home">
+<img src="./public/Media/readmeFiles/HomeBTN.png" width="15%" />
+</a></div>
 <br /><br />
 <img src="./public/Media/readmeFiles/Headers-SEO.svg" width="100%"/>
 <!-- <h2>SEO</h2> -->
@@ -143,6 +155,12 @@ Tennis sessions for schools High Wycombe, Bucks, Buckinghamshire
 
 
 
+<br /><br />
+
+<div align="left">
+<a href="#home">
+<img src="./public/Media/readmeFiles/HomeBTN.png" width="15%" />
+</a></div>
 <br /><br />
 <img src="./public/Media/readmeFiles/Headers-usedLibraries_Hooks.svg" width="100%" id="libsAndHooks"/>
 <!-- <h2>Used Libraries & Hooks</h2> -->
@@ -192,6 +210,11 @@ Struggled with:<br />
 <p></p>
 
 
+<br /><br />
+<div align="left">
+<a href="#home">
+<img src="./public/Media/readmeFiles/HomeBTN.png" width="15%" />
+</a></div>
 <br /><br />
 <img src="./public/Media/readmeFiles/Headers-Link.svg" width="100%" id="Link" />
 <a href="https://naphill-tennis-club.vercel.app/">
