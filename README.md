@@ -125,7 +125,34 @@ Tennis sessions for schools High Wycombe, Bucks, Buckinghamshire
 <br /><br />
 <img src="./public/Media/readmeFiles/Headers-usedLibraries_Hooks.svg" width="100%"/>
 <!-- <h2>Used Libraries & Hooks</h2> -->
+Font Awesome - incons at the bottom of page links<br />
+<img src="./public/Media/readmeFiles/fontawesome.svg" width="30%"/><br /><br />
+
+
+next js - for creating the site<br />
+<img src="./public/Media/readmeFiles/Nextjs-logo.svg" width="30%"/><br /><br />
+
+mysql:
+<img src="./public/Media/readmeFiles/MySQL-Logo.svg" width="30%"/><br /><br />
+
+
+react-hook-form:
+<img src="./public/Media/readmeFiles/fontawesome.svg" width="30%" /><br /><br />
+
+next sitemap:
+<img src="./public/Media/readmeFiles/Nextjs-sitemapsvg.svg" width="30%" /><br /><br />
+
+anime js:
+<img src="./public/Media/readmeFiles/AnimeJS.svg" width="30%" /><br /><br />
+
+hamburger-react:
+<img src="./public/Media/readmeFiles/hamburger-react.svg" width="30%" /> <br /><br />
 <p></p>
+
+
+
+
+
 
 
 <br /><br />
