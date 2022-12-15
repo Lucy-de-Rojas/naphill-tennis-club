@@ -34,7 +34,11 @@ The site has been in use years 2014-2022 where I helped updating the content on 
 <img src="./public/Media/videos/WhatIsTennis.gif" width="80%"/>
 
 Posters:
-<img src="./public/Media/images/barnDance2016.jpg" width="50%"/>
+<br /><br />
+<img src="./public/Media/images/barnDance2016.jpg" width="51%"/>
+
+<br /><br />
+<img src="./public/Media/images/tennisBallMachineChallenge.jpg" width="51%"/>
 
 
 
