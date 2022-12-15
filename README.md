@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Naphill tennis club</h1>
 
-<img src="./public/Media/readmeFiles/naphillTennis-logoSVG.svg" width="80%"/>
+<img src="./public/Media/readmeFiles/naphillTennis-logoSVG.svg" width="60%"/>
 
 <h2>Introduction to Project</h2>
 
