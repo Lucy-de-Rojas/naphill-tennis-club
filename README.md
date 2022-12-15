@@ -35,6 +35,11 @@ The site has been in use years 2014-2022 where I helped updating the content on 
 
 
 <br /><br />
+<div align="left">
+<a href="#home">
+<img src="./public/Media/readmeFiles/HomeBTN.png" width="30%" />
+</a></div>
+<br /><br />
 
 <img src="./public/Media/readmeFiles/Headers-Content.svg" width="100%"/>
 <!-- <h2>Content</h2> -->
@@ -72,6 +77,7 @@ Icons used at the bottom of the page: FontAwesome.<br />
 
 
 <br /><br />
+
 <img src="./public/Media/readmeFiles/Headers-BackEnd.svg" width="100%" /> 
 <!-- <h2>Back End</h2> -->
 <p>Back end is solved using API part of Next JS with MYSQL database installed and running on Raspberry Pi 4 with remote access enabled.
