@@ -2,6 +2,7 @@
 import Layout from "../components/Layout";
 import Link from 'next/link';
 import Head from 'next/head';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 import styles from '../styles/bottomLinks.module.css';
@@ -39,9 +40,17 @@ export default function UpcomingEvents () {
 
     return (<div>
 <Layout>
-<Head><title>
+    <Head>
+<title>
     Tennis courts for hire, High Wycombe, Bucks, Buckinghamshire
-    </title></Head>
+    </title>
+    
+    
+    {/* these are for font awesome icons to use: */}
+<script defer async src="https://kit.fontawesome.com/9f56af7d44.js" crossorigin="anonymous"></script>
+
+    
+    </Head>
 
 
 
@@ -53,11 +62,14 @@ export default function UpcomingEvents () {
 
 {/* facebook link: */}
 <Link href="https://www.facebook.com/groups/naphilltennisclub" legacyBehavior>
-            <a target='_blank'>
+            <a target="_blank">
+
 <div className={styles.iconWrap}>
         <i class="fa-brands fa-facebook fa-3x"></i>
 </div>
-</a></Link>
+            </a>
+
+</Link>
 
 
 
