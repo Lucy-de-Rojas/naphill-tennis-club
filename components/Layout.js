@@ -8,6 +8,8 @@ import LogoAndMenu from "./LogoAndMenu"
 
 import styles from '../styles/layout.module.css';
 
+import Link from "next/link";
+
 
 
 
@@ -44,8 +46,9 @@ export default function Layout ({children}) {
 <div className={styles.disclaimer}>
     📣 This site is portfolio example of site between 2014-2022. <br />To visit current site of Naphill Tennis Club please see this link:
     <br />
-     <a href="https://clubspark.lta.org.uk/NaphillLTC" target="_blank">Naphill Tennis Club</a>
-
+    <Link href="https://clubspark.lta.org.uk/NaphillLTC" legacyBehavior>
+         <a target="_blank">Naphill Tennis Club</a>
+    </Link>
     
     
 
