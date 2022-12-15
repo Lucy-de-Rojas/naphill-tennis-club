@@ -7,7 +7,7 @@
 
 
 <a href="https://naphill-tennis-club.vercel.app/">
-<img src="./public/Media/readmeFiles/naphillTennis-logoSVG.svg" width="60%"/>
+<img src="./public/Media/readmeFiles/naphillTennis-logoSVG.svg" width="45%"/>
 </a>
 
 
