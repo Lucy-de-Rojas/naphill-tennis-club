@@ -58,19 +58,20 @@ body {
     display: flex;
     flex-direction: column;
 
+
 }
 
 
 
 
 /* for PC screens: */
+
 @media screen and (min-width: 900px) {
     body {
         padding: 0 25%;
-        /* background-color: rgb(248, 173, 173); */
-    }
-    
-}
+         /* background-color: rgb(248, 173, 173); */
+     }  }  
+
 
 
 

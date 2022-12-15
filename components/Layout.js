@@ -41,10 +41,19 @@ export default function Layout ({children}) {
 
 </Head>
 
+<div className={styles.disclaimer}>
+    📣 This site is portfolio example of site between 2014-2022. <br />To visit current site of Naphill Tennis Club please see this link:
+    <br />
+     <a href="https://clubspark.lta.org.uk/NaphillLTC" target="_blank">Naphill Tennis Club</a>
+
+    
+    
+
+    
+</div>
+
 
 <LogoAndMenu />
-
-
 
 
 

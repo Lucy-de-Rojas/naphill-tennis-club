@@ -4,6 +4,12 @@
 }
 
 
+
+
+
+
+
+
 .content {
     display: flex;
     /* background-color: rgba(128, 0, 128, 0.612); */
@@ -15,4 +21,13 @@
     background-color: var(--grey);
     width: 100%;
     padding: 20px;
+}
+
+
+.disclaimer {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 30px;
+    width: 100%;
+    line-height: 2;
 }
