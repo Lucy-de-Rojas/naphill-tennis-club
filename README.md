@@ -1,6 +1,7 @@
 <div align="center">
 <h1>Naphill tennis club</h1>
-<img src="./public/Media/LogosAndIcons/NaphillTennisClub-LogoNEW.png" width="50%" />
+
+<img src="./public/Media/readmeFiles/naphillTennis-logoSVG.svg" width="80%"/>
 
 <h2>Introduction to Project</h2>
 
@@ -9,7 +10,8 @@ Volunteering project.<br />
 The site has been in use years 2014-2022 where I helped updating the content on regular basis and improving. My second website I published. 
 </p>
 
-<img src="./public/Media/LogosAndIcons/facebookNaphill.svg" width="50%          " />
+
+
 
 <h2>Branding</h2>
 <p>Given a free hand to style colours, fonts and logo I was really happy to create professional looking site for a small village club.</p>
