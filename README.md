@@ -1,10 +1,14 @@
 <div align="center">
 
+<!-- navigation: -->
+<a href="#Link">Link to Links</a><br />
+<a href="#libsAndHooks">Link to Libraries and hooks</a><br />
 
-<a href="#Link">Link to Links</a>
-<a href="#libsAndHooks">Link to Libraries and hooks</a>
 
-<img src="./public/Media/readmeFiles/Headers-NaphillTennisClub.svg" width="100%"/>
+
+
+
+<img src="./public/Media/readmeFiles/Headers-NaphillTennisClub.svg" width="100%" id="home"/>
 
 
 <a href="https://naphill-tennis-club.vercel.app/">
