@@ -49,6 +49,9 @@ export default function Layout ({children}) {
     <Link href="https://clubspark.lta.org.uk/NaphillLTC" legacyBehavior>
          <a target="_blank">Naphill Tennis Club</a>
     </Link>
+
+<hr />
+    For source code see:  <Link href="https://github.com/Lucy-de-Rojas/naphill-tennis-club" legacyBehavior><a>Github</a></Link>
     
     
 
