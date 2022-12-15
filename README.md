@@ -3,9 +3,17 @@
 
 <!-- navigation: -->
 Section Links:<br />
-<a href="#Link">Link to Links</a><br />
-<a href="#libsAndHooks">Link to Libraries and hooks</a><br />
 
+<a href="#intro">Introduction to Project</a><br />
+<a href="#Branding">Branding</a><br />
+<a href="#Content">Content</a><br />
+<a href="#Front End">Front End</a><br />
+<a href="#Back End">Back End</a><br />
+<a href="#SEO">SEO</a><br />
+<a href="#Libraries and Hooks">Libraries and Hooks</a><br />
+<a href="#Project Take Aways">Project Take Aways</a><br />
+<a href="#Link">Link</a><br />
+<a href="#"></a><br />
 
 
 
@@ -23,7 +31,7 @@ Section Links:<br />
 
 <br /><br />
 <!-- <h2>Introduction to Project</h2> -->
-<img src="./public/Media/readmeFiles/Headers-IntroToProject.svg" width="100%"/>
+<img src="./public/Media/readmeFiles/Headers-IntroToProject.svg" width="100%" id="intro"/>
 
 
 <p>
@@ -33,7 +41,7 @@ The site has been in use years 2014-2022 where I helped updating the content on 
 
 
 <br /><br />
-<img src="./public/Media/readmeFiles/Headers-Branding.svg" width="100%"/>
+<img src="./public/Media/readmeFiles/Headers-Branding.svg" width="100%" id="Branding"/>
 <!-- <h2>Branding</h2> -->
 <p>Given a free hand to style colours, fonts and logo I was really happy to create professional looking site for a small village club.</p>
 
@@ -45,7 +53,7 @@ The site has been in use years 2014-2022 where I helped updating the content on 
 </a></div>
 <br /><br />
 
-<img src="./public/Media/readmeFiles/Headers-Content.svg" width="100%"/>
+<img src="./public/Media/readmeFiles/Headers-Content.svg" width="100%" id="Content"/>
 <!-- <h2>Content</h2> -->
 <p>The site has few content ideas created to help promote the club in a positive fun way. Home page for example has a short (music) video explaining aspects of tennis and way people should play tennis encouraging for try out games. Posters for upcoming and past events are also included. Really enjoyed video editing, as this was first one of my first attempts on video editing using Windows Video Editor.</p>
 
@@ -68,7 +76,11 @@ Posters:
 <img src="./public/Media/readmeFiles/HomeBTN.png" width="15%" />
 </a></div>
 <br /><br />
-<img src="./public/Media/readmeFiles/Headers-FrontEnd.svg" width="100%"/>
+
+
+
+
+<img src="./public/Media/readmeFiles/Headers-FrontEnd.svg" width="100%" id="Front End"/>
 <!-- <h2>Front End</h2> -->
 <p>
 For front end: Next JS.<br />
@@ -88,7 +100,7 @@ Icons used at the bottom of the page: FontAwesome.<br />
 
 <br /><br />
 
-<img src="./public/Media/readmeFiles/Headers-BackEnd.svg" width="100%" /> 
+<img src="./public/Media/readmeFiles/Headers-BackEnd.svg" width="100%" id="Back End"/> 
 <!-- <h2>Back End</h2> -->
 <p>Back end is solved using API part of Next JS with MYSQL database installed and running on Raspberry Pi 4 with remote access enabled.
 <br />
@@ -113,7 +125,7 @@ Icons used at the bottom of the page: FontAwesome.<br />
 <img src="./public/Media/readmeFiles/HomeBTN.png" width="15%" />
 </a></div>
 <br /><br />
-<img src="./public/Media/readmeFiles/Headers-SEO.svg" width="100%"/>
+<img src="./public/Media/readmeFiles/Headers-SEO.svg" width="100%" id="SEO"/>
 <!-- <h2>SEO</h2> -->
 <p>
 SEO was focused on local searches in High Wycombe/Buckinghamshire area, for anyone enquirying about tennis coaching, playing tennis for various age groups. 
@@ -166,7 +178,7 @@ Tennis sessions for schools High Wycombe, Bucks, Buckinghamshire
 <img src="./public/Media/readmeFiles/HomeBTN.png" width="15%" />
 </a></div>
 <br /><br />
-<img src="./public/Media/readmeFiles/Headers-usedLibraries_Hooks.svg" width="100%" id="libsAndHooks"/>
+<img src="./public/Media/readmeFiles/Headers-usedLibraries_Hooks.svg" width="100%" id="Libraries and Hooks"/>
 <!-- <h2>Used Libraries & Hooks</h2> -->
 Font Awesome - incons at the bottom of page links<br /><br />
 <img src="./public/Media/readmeFiles/fontawesome.svg" width="30%"/><br /><br /><br />
@@ -200,7 +212,8 @@ hamburger-react  - burger menu with transitions <br /><br />
 
 
 <br /><br />
-<img src="./public/Media/readmeFiles/Headers-ProjectTakeAways.svg" width="100%"/>
+
+<img src="./public/Media/readmeFiles/Headers-ProjectTakeAways.svg" width="100%" id="Project Take Aways"/>
 <!-- <h2>Challenges of the project</h2> -->
 
 Learned:
