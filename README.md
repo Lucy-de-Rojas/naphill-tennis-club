@@ -5,7 +5,12 @@
 
 <img src="./public/Media/readmeFiles/Headers-NaphillTennisClub.svg" width="100%"/>
 
+
+<a href="https://naphill-tennis-club.vercel.app/">
 <img src="./public/Media/readmeFiles/naphillTennis-logoSVG.svg" width="60%"/>
+</a>
+
+
 
 <br /><br />
 <!-- <h2>Introduction to Project</h2> -->
@@ -41,8 +46,9 @@ Posters:
 <img src="./public/Media/images/tennisBallMachineChallenge.jpg" width="51%"/>
 
 
-
-<h2>Front End</h2>
+<br /><br />
+<img src="./public/Media/readmeFiles/Headers-FrontEnd.svg" width="100%"/>
+<!-- <h2>Front End</h2> -->
 <p>
 For
 media queries
@@ -50,24 +56,34 @@ media queries
 </p>
 
 
-<h2>Back End</h2>
+<br /><br />
+<img src="./public/media/readmeFiles/Headers-BackEnd.svg" width="100%"/>
+<!-- <h2>Back End</h2> -->
 <p></p>
 
 
-<h2>SEO</h2>
+<br /><br />
+<img src="./public/Media/readmeFiles/Headers-SEO.svg"> width="100%"/>
+<!-- <h2>SEO</h2> -->
 <p></p>
 
 
 
-<h2>Used Libraries & Hooks</h2>
+<br /><br />
+<img src="./public/Media/readmeFiles/Headers-usedLibraries_Hooks.svg" width="100%"/>
+<!-- <h2>Used Libraries & Hooks</h2> -->
 <p></p>
 
 
-<h2>Challenges of the project</h2>
+<br /><br />
+<img src="./public/Media/readmeFiles/Headers-ProjectTakeAways.svg" width="100%"/>
+<!-- <h2>Challenges of the project</h2> -->
 <p></p>
 
 
-<a href="https://naphill-tennis-club.vercel.app/">See website</a>
+<br /><br />
+<img src="./public/media/readmeFiles/Headers-Link.svg" width="100%"/>
+<a href="https://naphill-tennis-club.vercel.app/">Naphill Tennis Club site </a>
 </div>
 
 
