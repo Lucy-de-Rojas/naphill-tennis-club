@@ -51,7 +51,7 @@ export default function Layout ({children}) {
     </Link>
 
 <hr />
-    For source code see:  <Link href="https://github.com/Lucy-de-Rojas/naphill-tennis-club" legacyBehavior><a>Github</a></Link>
+    For source code see:  <Link href="https://github.com/Lucy-de-Rojas/naphill-tennis-club" legacyBehavior><a target="_blank">Github</a></Link>
     
     
 
