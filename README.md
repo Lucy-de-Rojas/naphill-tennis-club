@@ -80,8 +80,41 @@ Icons used at the bottom of the page: FontAwesome.<br />
 <!-- <h2>SEO</h2> -->
 <p>
 SEO was focused on local searches in High Wycombe/Buckinghamshire area, for anyone enquirying about tennis coaching, playing tennis for various age groups. 
-
+<hr />
 The name of the club is incorporated into url, for anyone looking for Naphill Tennis Club.
+<br /><br /><br />
+<h1>Keywords per page:</h1>
+
+<b>
+Home page</b><br />
+Tennis High Wycombe, Bucks, Buckinghamshire
+<hr />
+
+<b>About</b> <br />
+Tennis coaching for children, juniors, High Wycombe, Bucks, Buckinghamshire
+<hr />
+
+<b>Upcoming Events</b><br />
+ Tennis courts for hire, High Wycombe, Bucks, Buckinghamshire
+<hr />
+
+<b>Meet the Ladies Team</b><br />
+Adult tennis coaching High Wycombe, Bucks, Buckinghamshire
+<hr />
+
+<b>Meet the Mens Team</b><br /> 
+Tennis sessions for the retired, High Wycombe, Bucks, Buckinghamshire
+<hr />
+
+
+<b>Join Us</b><br />
+Tennis refreshers High Wycombe, Bucks, Buckinghamshire
+<hr />
+
+<b>Contact</b><br />
+Tennis sessions for schools High Wycombe, Bucks, Buckinghamshire
+
+
 
 
 </p>
