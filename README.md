@@ -30,6 +30,7 @@ The site has been in use years 2014-2022 where I helped updating the content on 
 
 
 <br /><br />
+
 <img src="./public/Media/readmeFiles/Headers-Content.svg" width="100%"/>
 <!-- <h2>Content</h2> -->
 <p>The site has few content ideas created to help promote the club in a positive fun way. Home page for example has a short (music) video explaining aspects of tennis and way people should play tennis encouraging for try out games. Posters for upcoming and past events are also included. Really enjoyed video editing, as this was first one of my first attempts on video editing using Windows Video Editor.</p>
@@ -63,8 +64,11 @@ Icons used at the bottom of the page: FontAwesome.<br />
 </p>
 
 
+
+
+
 <br /><br />
-<img src="./public/media/readmeFiles/Headers-BackEnd.svg" width="100%"/>
+<img src="./public/media/readmeFiles/Headers-BackEnd.png" width="100%"/>
 <!-- <h2>Back End</h2> -->
 <p>Back end is solved using API part of Next JS with MYSQL database installed and running on Raspberry Pi 4 with remote access enabled.
 <br />
@@ -73,6 +77,11 @@ Icons used at the bottom of the page: FontAwesome.<br />
 <img src="./public/Media/readmeFiles/RaspberryPi4png.svg" width="20%"/>
 
 </p>
+
+
+
+
+
 
 
 <br /><br />
