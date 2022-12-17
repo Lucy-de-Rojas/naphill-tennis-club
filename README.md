@@ -216,10 +216,15 @@ hamburger-react  - burger menu with transitions <br /><br />
 <img src="./public/Media/readmeFiles/Headers-ProjectTakeAways.svg" width="100%" id="Project Take Aways"/>
 <!-- <h2>Challenges of the project</h2> -->
 
-Learned:
+Learned:<br/>
+* Create and host my own database server on Rapsberry Pi
+* Use libraries for site utilities like burger menu, animation, form data collecting, and sitemap generating.
+* On submission, page takes data from the form and uses them on the following page using Router.
+* Connect to database to read and save data from it.
 
  <br />
 Struggled with:<br />
+It took a while to connect to MYSQL remotely using Node JS. Note to self: to enable remote access to MYSQL: edit config file of the database where bind-address=0.0.0.0 and create a user with MYSQl user@'%'. 
 
 
 
