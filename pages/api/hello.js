@@ -6,7 +6,7 @@ export default async function handler(req, res) {
 
   await NextCors(req, res, {
     methods: ["GET","PUT"],
-    origin: "http://localhost:3000/",
+    origin: "*",
     optionsSuccessStatus: 200,
   });
 
