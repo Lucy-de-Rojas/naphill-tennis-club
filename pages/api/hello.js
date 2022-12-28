@@ -7,13 +7,13 @@ export default async function handler(req, res) {
 
 
 
-//   await NextCors(req, res, {
-//     methods: ["GET"],
-//     origin:"*",
-//     optionsSuccessStatus: 200,
-// });
+  await NextCors(req, res, {
+    methods: ["GET"],
+    origin:"*",
+    optionsSuccessStatus: 200,
+});
 
-allowCORS(req, res);
+// allowCORS(req, res);
 
 
   res.status(200).json({sender: "benji rojas", reciever: 'mama' })

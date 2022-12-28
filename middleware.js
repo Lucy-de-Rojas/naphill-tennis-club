@@ -1,9 +1,9 @@
-import { NextResponse} from 'next/server';
-// import NextCors from 'nextjs-cors';
+import { NextRequest, NextResponse} from 'next/server';
+import NextCors from 'nextjs-cors';
 
 
 
-export async function middleware(req, res) {
+export async function middleware(req, response) {
     console.log('middle');
 
     
