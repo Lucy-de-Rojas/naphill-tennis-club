@@ -11,5 +11,5 @@ export default async function handler(req, res) {
 
 allowCORS();
 
-  res.status(200).json({ name: 'John Doe', sender: "lucy de rojas" })
+  res.status(200).json({ name: 'John Doe', sender: "benji rojas" })
 }
