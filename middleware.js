@@ -2,7 +2,7 @@ import { NextResponse} from 'next/server';
 import NextCors from "nextjs-cors"
 
 
-export async function middleware(req) {
+export async function middleware(reqest) {
 
     
   await NextCors(req, res, {
@@ -16,7 +16,7 @@ export async function middleware(req) {
 
 
 
-    return NextResponse.rewrite(req.nextUrl);
+    return NextResponse.rewrite(reqest.nextUrl);
 }
 
 
