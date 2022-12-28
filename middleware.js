@@ -1,12 +1,18 @@
-import { allowCORS } from './libs/allowCors';
-
+import NextCors from "nextjs-cors";
 import { NextResponse} from 'next/server';
 
 
 export async function middleware(reqest) {
     console.log('middle');
 
-    allowCORS();
+    
+  await NextCors(req, res, {
+    methods: ["GET"],
+    origin:"*",
+    optionsSuccessStatus: 200,
+});
+
+
 
     
 
@@ -18,10 +24,20 @@ export async function middleware(reqest) {
 
 
 
-export const config = {
-    matcher: "/api/:function*",
-}
+// export const config = {
+//     matcher: "/api/:function*",
+// }
 
+
+
+
+
+
+
+
+// export const config = {
+//     matcher: "/api/:function*",
+// }
 
 
 
