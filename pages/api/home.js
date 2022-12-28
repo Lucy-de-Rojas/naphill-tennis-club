@@ -1,9 +1,21 @@
 ﻿
+import NextCors from "nextjs-cors";
+
+
+
+export default async function handler(req, res) {
+
+
+    await NextCors(req, res, {
+        methods: ["GET"],
+        origin:"*",
+        optionsSuccessStatus: 200,
+    });
+    
 
 
 
 
-export default function handler(req, res) {
     const data = {
         title: 'Welcome to Naphill Lawn Tennis Club',
         subhead: 'Enjoy playing tennis all year round!',
