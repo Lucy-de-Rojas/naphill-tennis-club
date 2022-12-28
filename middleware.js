@@ -3,14 +3,14 @@ import NextCors from "nextjs-cors"
 
 
 export async function middleware(reqest) {
-    console.log('middle')
+    console.log('middle');
 
     
-//   await NextCors(req, res, {
-//     methods: ["GET"],
-//     origin: "*",
-//     optionsSuccessStatus: 200,
-//   });
+  await NextCors(req, res, {
+    methods: ["GET"],
+    origin: "*",
+    optionsSuccessStatus: 200,
+  });
 
 
 
