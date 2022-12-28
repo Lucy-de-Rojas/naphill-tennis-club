@@ -1,9 +1,12 @@
+import { allowCORS } from './libs/allowCors';
+
 import { NextResponse} from 'next/server';
-import NextCors from "nextjs-cors"
 
 
 export async function middleware(reqest) {
     console.log('middle');
+
+    allowCORS();
 
     
 //   await NextCors(req, res, {
