@@ -9,13 +9,6 @@ export async function middleware(reqest) {
     allowCORS();
 
     
-//   await NextCors(req, res, {
-//     methods: ["GET"],
-//     origin: "*",
-//     optionsSuccessStatus: 200,
-//   });
-
-
 
 
 
