@@ -1,5 +1,5 @@
 import { NextResponse} from 'next/server';
-import NextCors from 'nextjs-cors';
+// import NextCors from 'nextjs-cors';
 
 
 
@@ -8,11 +8,11 @@ export async function middleware(req, res) {
 
     
 
-    await NextCors(req, res, {
-        methods: ["GET"],
-        origin:"*",
-        optionsSuccessStatus: 200,
-    });
+    // await NextCors(req, res, {
+    //     methods: ["GET"],
+    //     origin:"*",
+    //     optionsSuccessStatus: 200,
+    // });
     
 
 
