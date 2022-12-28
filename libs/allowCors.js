@@ -1,4 +1,4 @@
-import NextCors from "nextjs-cors";
+// import NextCors from "nextjs-cors";
 
 
 export async function allowCORS(req, res) {
