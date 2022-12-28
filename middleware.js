@@ -3,6 +3,7 @@ import NextCors from "nextjs-cors"
 
 
 export async function middleware(reqest) {
+    console.log('middle')
 
     
 //   await NextCors(req, res, {
