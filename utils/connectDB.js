@@ -13,7 +13,7 @@ async function getOurIP() {
 
 
 export const mysqlConnect = {
-    host: getOurIP(),
+    host: '109.158.58.220',
     database: process.env.DATABASE,
     port: parseInt(process.env.PORT),
     user: process.env.USER_NAME,
