@@ -8,6 +8,7 @@ const nextConfig = {
     USER_NAME: process.env.USER_NAME,
     DATABASE: process.env.DATABASE,
     TABLE_NAME: process.env.TABLE_NAME,
+    ourIp: process.env.ourIp,
     
     
   },
