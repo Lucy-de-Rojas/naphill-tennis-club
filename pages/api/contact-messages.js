@@ -1,6 +1,7 @@
 ﻿
 import mysql from 'mysql2/promise';
 import { mysqlConnect } from '../../utils/connectDB';
+import { mysqlConnect1 } from '../../utils/connectDB';
 
 
 export default async function handler(req, res) {
@@ -16,13 +17,27 @@ export default async function handler(req, res) {
 }
 */
 
-const connection = await mysql.createConnection(mysqlConnect);
+
+
+// testing node fetch:
+const mysqlDetails = await mysqlConnect1();
+console.log('mysql details :>>>', mysqlDetails)
+
+
+
+
+
+
+const connection = await mysql.createConnection(mysqlDetails);
+// const connection = await mysql.createConnection(mysqlConnect);
+
+
 const values=[];
 
 const query = `select * from contact`;
 const [results] = await connection.execute(query, values);
 
-console.log('result from reading from DB naphill.contact: >>>>> ', results);
+// console.log('result from reading from DB naphill.contact: >>>>> ', results);
 
     res.json({messages:results});
 }

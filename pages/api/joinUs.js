@@ -1,7 +1,7 @@
 import mysql from 'mysql2/promise';
 
 import { mysqlConnect } from '../../utils/connectDB';
-
+import { mysqlConnect1 } from '../../utils/connectDB';
 
 
 
@@ -10,9 +10,17 @@ export default async function handler(req, res) {
     
     let data = req.body;
     
+    // testing node fetch:
+    const mysqlDetails = await mysqlConnect1();
+    console.log('mysql details :>>>', mysqlDetails)
+
+
+
+
+    
     console.log('data from api:>>> ',data)
     
-    const connection = await mysql.createConnection(mysqlConnect);
+    const connection = await mysql.createConnection(mysqlDetails);
 
     if(connection) {
         console.log('connected top MYSQL');

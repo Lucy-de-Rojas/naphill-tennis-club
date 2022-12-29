@@ -4,7 +4,7 @@ import NextCors from 'nextjs-cors';
 
 
 export async function middleware(req, response) {
-    console.log('middle');
+    // console.log('middle');
 
     
 
