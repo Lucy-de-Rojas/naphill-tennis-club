@@ -1,11 +1,11 @@
 
-async function getOurIP() {
-    let response = await fetch('https://ourips-lucy-de-rojas.vercel.app/api/ourips');
-    let data = await response.json();
-    console.log(data.ourIps);
-    let result = data.ourIps;
-    return result;
-}
+// async function getOurIP() {
+//     let response = await fetch('https://ourips-lucy-de-rojas.vercel.app/api/ourips');
+//     let data = await response.json();
+//     console.log(data.ourIps);
+//     let result = data.ourIps;
+//     return result;
+// }
 
 
 
