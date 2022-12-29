@@ -1,8 +1,7 @@
 import Layout from "../components/Layout";
-
+import Head from "next/head";
 
 import {useState, useEffect} from 'react';
-import Head from "next/head";
 
 
 // tide up timestamp from mysql:
@@ -45,7 +44,7 @@ export default function JoinUsDisplayAllMembers() {
     return (<Layout>
         <Head>
             <title>
-                👍 hello
+                🎾 Display All Members
             </title>
         </Head>
 <h1>All Memberships:</h1>

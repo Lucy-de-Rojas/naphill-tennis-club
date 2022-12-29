@@ -13,7 +13,7 @@ export default function meetLadiesTeam () {
     return (<div>
 <Layout>
 <Head><title>
-    Adult tennis coaching High Wycombe, Bucks, Buckinghamshire
+   🐞 Adult tennis coaching High Wycombe, Bucks, Buckinghamshire
     </title></Head>
 
 

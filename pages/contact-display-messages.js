@@ -1,7 +1,7 @@
 import Layout from "../components/Layout"
 import {useState, useEffect} from 'react';
 import styles from '../styles/contact-display-messages.module.css';
-
+import Head from "next/head";
 
 
 
@@ -41,6 +41,7 @@ export default function DisplayMessages() {
 
 
     return (<Layout>
+        <Head><title> 💌 Displaying all messages </title></Head>
 
 <h1>All messages <br />from Contact page <br />Total: {messages.length}</h1>
 

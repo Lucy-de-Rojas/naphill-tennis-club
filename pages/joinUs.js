@@ -51,7 +51,7 @@ export default function JoinUs () {
 <Layout>
     <Head>
         <title>
-            Tennis refreshers High Wycombe, Bucks, Buckinghamshire
+          🎾  Tennis refreshers High Wycombe, Bucks, Buckinghamshire
         </title>
     </Head>
 

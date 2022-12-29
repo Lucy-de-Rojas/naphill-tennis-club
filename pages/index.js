@@ -11,6 +11,7 @@ import { createTimestamp } from '../utils/createTimestamp';
 
 export default function Home() {
   // logVisitors('home');
+  <Head><title>🏠</title></Head>
 
   
 

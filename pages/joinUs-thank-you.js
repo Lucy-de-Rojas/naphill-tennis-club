@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
-
+import Head from "next/head";
 import Layout from "../components/Layout"
 
 
@@ -22,6 +22,7 @@ export default function JoinUsThankYou() {
 
 
     return (<Layout>
+        <Head><title>🙏 Thank you for Joining us</title></Head>
 
 <h1>Thank you for joining<br /> Naphill Tennis club</h1>
 <h2>Here are your membership details:</h2>

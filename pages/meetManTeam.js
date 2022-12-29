@@ -15,7 +15,7 @@ export default function meetManTeam () {
     return (<div>
 <Layout>
 <Head><title>
-    Tennis sessions for the retired, High Wycombe, Bucks, Buckinghamshire
+  👨  Tennis sessions for the retired, High Wycombe, Bucks, Buckinghamshire
     </title></Head>
 
 

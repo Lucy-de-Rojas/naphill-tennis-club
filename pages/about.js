@@ -39,7 +39,7 @@ export default function About () {
         <Layout>
             <Head>
                 <title>
-                    Tennis coaching for children, juniors, High Wycombe, Bucks, Buckinghamshire
+                    🎾 Tennis coaching for children, juniors, High Wycombe, Bucks, Buckinghamshire
                 </title>
             </Head>
 

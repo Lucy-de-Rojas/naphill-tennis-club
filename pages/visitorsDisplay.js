@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react';
 import Layout from '../components/Layout';
-
+import Head from 'next/head';
 import styles from '../styles/visitorsDisplay.module.css';
 
 
@@ -96,6 +96,7 @@ export default function VisitorsDisplay() {
 
 
     return (<Layout>
+        <Head><title>🏸 Display All page visitors</title></Head>
 
 <h1>All visitors:</h1>
 

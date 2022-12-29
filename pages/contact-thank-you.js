@@ -1,7 +1,7 @@
 ﻿
 import Layout from "../components/Layout";
 import { useRouter } from "next/router";
-
+import Head from "next/head";
 
 
 
@@ -19,6 +19,7 @@ export default function ContactThankYou() {
 
 
     return (<Layout>
+        <Head><title>🌻 Contact Thank You</title></Head>
 <h1>Thank you for your message</h1>
 
 <p>name: {name}</p>

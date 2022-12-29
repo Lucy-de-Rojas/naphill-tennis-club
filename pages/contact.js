@@ -57,7 +57,7 @@ export default function Contact () {
 
     return (<Layout>
 <Head><title>
-    Tennis sessions for schools High Wycombe, Bucks, Buckinghamshire
+   💌 Tennis sessions for schools High Wycombe, Bucks, Buckinghamshire
     </title></Head>
 
         <h1>Contact Naphill Tennis Club</h1>

@@ -41,7 +41,7 @@ export default function UpcomingEvents () {
     return (<div>
 <Layout>
     <Head>
-<title>
+<title> 🏸
     Tennis courts for hire, High Wycombe, Bucks, Buckinghamshire
     </title>
     
