@@ -75,8 +75,9 @@ const [isOpen, setOpen] = useState(false)
 
         <Hamburger toggled={isOpen} toggle={setOpen} onToggle={doSomething} rounded easing="ease-in" color="#049919"
         label="Show Menu" size={50}
+         />
         
-        /></div>
+        </div>
 
 
 

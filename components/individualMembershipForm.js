@@ -8,16 +8,19 @@ import styles from '../styles/joinUs.module.css';
 
 
 
+
+
+
 export default function IndividualMembershipForm() {
 
 
     const DATE = createDATE().DATE;
     const DATEexp = createDATE().DATEexp;
     const membershipYEARS = createDATE().membershipYEars;
-  
 
 
-    
+
+
 // for the form hook:
 const formDefaults = {defaultValues: {
     first_name:'',
@@ -52,7 +55,7 @@ const {register, handleSubmit, watch, formState: {errors}} = useForm(formDefault
 
 
 return <div>
-    
+
 <h1>Membership</h1>
 <form onSubmit={handleSubmit(getIndividualMembershipData)}>
 
@@ -109,7 +112,7 @@ return <div>
 
 <label>
     <p>
-        Junior    
+        Junior
         </p>
         <input type="radio" value="junior" {...register("membership", {required:true})} />
         <p>£20</p>
@@ -146,12 +149,12 @@ return <div>
 
 <label>
     <p>
-        Retired   
+        Retired
         </p>
-        
+
          <input type="radio" value="junior" {...register("membership", {required:true})} />
          <p>£50</p>
-        
+
 </label>
 </div>
 {/* <hr /> */}
@@ -189,9 +192,9 @@ return <div>
             required: {value: true, message: "we need your first name",},
             minLength: {value: 1, message: "your name needs at least 2 letters"},
             maxLength: {value:49, message: 'your name is too long' },
-            placeholder:'First name', 
+            placeholder:'First name',
         })
-    } 
+    }
         type="text"
         placeholder="first name"
          />
@@ -209,9 +212,9 @@ return <div>
         ...register("surname",{
             required: {value: true, message: "we need your surname",},
             minLength: {value: 1, message: "your name needs at least 2 letters"},
-            maxLength: {value:99, message: 'your name is too long' }, 
+            maxLength: {value:99, message: 'your name is too long' },
         })
-    } 
+    }
         type="text"
         placeholder="surname"
          />
@@ -229,9 +232,9 @@ return <div>
         ...register("email",{
             required: {value: true, message: "we need your email",},
             minLength: {value: 1, message: "your name needs at least 2 letters"},
-            maxLength: {value:199, message: 'your name is too long' }, 
+            maxLength: {value:199, message: 'your name is too long' },
         })
-    } 
+    }
         type="email"
         placeholder="email"
          />
@@ -252,9 +255,9 @@ return <div>
         ...register("phone",{
             required: {value: true, message: "we need your phone",},
             minLength: {value: 1, message: "your name needs at least 2 letters"},
-            maxLength: {value:199, message: 'your name is too long' }, 
+            maxLength: {value:199, message: 'your name is too long' },
         })
-    } 
+    }
         type="tel"
         placeholder="phone"
          />
@@ -271,7 +274,7 @@ return <div>
             required: {value: true, message: 'we do need your address'},
             minLength: {value: 10, message: 'too short, 10 characters at least'},
             maxLength: {value: 2000, message: 'too long'},
-            
+
         })
     }>
     </textarea>
@@ -289,8 +292,8 @@ Date of Birth:<br />
                 required: {value: true, message: 'we need your date fo birth'},
             })
         }
-        
-        
+
+
         />
         </label>
         <p className={styles.errormessage}>{errors.date_of_birth?.message}</p>
