@@ -12,8 +12,8 @@ Section Links:<br />
 <a href="#SEO">SEO</a><br />
 <a href="#Libraries and Hooks">Libraries and Hooks</a><br />
 <a href="#Project Take Aways">Project Take Aways</a><br />
-<a href="#Link">Link</a><br />
-<a href="#"></a><br />
+<a href="#Link">Link to the Naphill Tennis CLub website</a><br />
+<a href="#Recommendation">Recommendation</a><br />
 
 
 
@@ -36,7 +36,7 @@ Section Links:<br />
 
 <p>
 Volunteering project.<br />
-The site has been in use years 2014-2022 where I helped updating the content on regular basis and improving. My second website I published. 
+The site has been in use years 2014-2022 where I helped updating the content on regular basis and improving. My second website I published.
 </p>
 
 
@@ -100,7 +100,7 @@ Icons used at the bottom of the page: FontAwesome.<br />
 
 <br /><br />
 
-<img src="./public/Media/readmeFiles/Headers-BackEnd.svg" width="100%" id="Back End"/> 
+<img src="./public/Media/readmeFiles/Headers-BackEnd.svg" width="100%" id="Back End"/>
 <!-- <h2>Back End</h2> -->
 <p>Back end is solved using API part of Next JS with MYSQL database installed and running on Raspberry Pi 4 with remote access enabled.
 <br />
@@ -128,7 +128,7 @@ Icons used at the bottom of the page: FontAwesome.<br />
 <img src="./public/Media/readmeFiles/Headers-SEO.svg" width="100%" id="SEO"/>
 <!-- <h2>SEO</h2> -->
 <p>
-SEO was focused on local searches in High Wycombe/Buckinghamshire area, for anyone enquirying about tennis coaching, playing tennis for various age groups. 
+SEO was focused on local searches in High Wycombe/Buckinghamshire area, for anyone enquirying about tennis coaching, playing tennis for various age groups.
 <br />
 <br />
 The name of the club is incorporated into url, for anyone looking for Naphill Tennis Club.
@@ -152,7 +152,7 @@ Tennis coaching for children, juniors, High Wycombe, Bucks, Buckinghamshire
 Adult tennis coaching High Wycombe, Bucks, Buckinghamshire
 <hr />
 
-<b>Meet the Mens Team</b><br /> 
+<b>Meet the Mens Team</b><br />
 Tennis sessions for the retired, High Wycombe, Bucks, Buckinghamshire
 <hr />
 
@@ -224,12 +224,21 @@ Learned:<br/>
 
  <br />
 Struggled with:<br />
-It took a while to connect to MYSQL remotely using Node JS. Note to self: to enable remote access to MYSQL: edit config file of the database where bind-address=0.0.0.0 and create a user with MYSQl user@'%'. 
+It took a while to connect to MYSQL remotely using Node JS. Note to self: to enable remote access to MYSQL: edit config file of the database where bind-address=0.0.0.0 and create a user with MYSQl user@'%'.
 
 
 
 
-<p></p>
+<br /><br />
+
+<h1 id="Recommendation">Recommendation</h1>
+<i>
+Lucy designed a much needed website for our tennis club, she had some great ideas to make it user friendly for our members to be able to access all the information they required, such a membership information, details about the club sessions etc. Lucy did an excellent job designing and maintaining the website. She listened to our requirements and was very helpful and professional.
+
+</i>
+<p>
+Sarah Dengel, Club Secretary</p>
+
 
 
 <br /><br />
@@ -242,6 +251,4 @@ It took a while to connect to MYSQL remotely using Node JS. Note to self: to ena
 <a href="https://naphill-tennis-club.vercel.app/">
 Naphill Tennis Club site </a>
 </div>
-
-
 
